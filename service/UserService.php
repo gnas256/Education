@@ -2,7 +2,7 @@
 
 require_once '../dao/UserDao.php';
 require_once '../domain/User.php';
-require_once './UserSessionService.php';
+require_once 'UserSessionService.php';
 
 class UserServce {
 

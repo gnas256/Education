@@ -20,4 +20,10 @@ if (!empty($_POST['username']) && !empty($_POST['password']) && isset($_POST['si
     $user->setEmail($_POST['email']);
     $user->setName($_POST['name']);
     $user->setType($_POST['type']);
+    if($service->signup($user)){
+        header("location:../index.html");
+    }
+    else{
+        header("location:../404.html");
+    }
 }

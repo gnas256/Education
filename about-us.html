@@ -31,13 +31,109 @@
     </head>
 
     <body>
+        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <form method="post" action="./controller/UserController.php">
+                        <!--                        <div class="modal-header">
+                                                    <h5 class="modal-title" id="exampleModalLabel">Signup</h5>
+                                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                        <span aria-hidden="true">&times;</span>
+                                                    </button>
+                                                </div>-->
+                        <div class="modal-body">
+                            <table class="table table-hover table-responsive">
+                                <tr>
+                                    <td colspan="2">
+                                <center>
+                                    <h3>Signup Form</h3>
+                                </center>
+                                </td>
+                                </tr>
+                                <tr>
+                                    <td class="active">Who are you</td>
+                                    <td>
+                                        <input type="radio" name="type" id="teacher" style="margin-right: 1%"  checked/><label for="teacher" style="margin-right: 3%">Teacher</label>
+                                        <input type="radio" name="type" id="parent" style="margin-right: 1%"/><label for="parent" style="margin-right: 3%">Parent</label>
+                                        <input type="radio" name="type" id="student" style="margin-right: 1%"/><label for="student">Student</label>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="active">Your username</td>
+                                    <td>
+                                        <input type="text" name="username" id="username" class="form-control" required />
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="active">Your password</td>
+                                    <td>
+                                        <input type="text" name="password" id="password" class="form-control" required />
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="active">Confirm password</td>
+                                    <td>
+                                        <input type="text" name="confirm" id="confirm" class="form-control" required />
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="active">Your name</td>
+                                    <td>
+                                        <input type="text" name="name" id="name"  class="form-control" required />
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            <button type="submit" class="btn btn-default" name="signup" id="signup">Signup</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="signinModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <form method="post" action="#">
+                        <!--                        <div class="modal-header">
+                                                    <h5 class="modal-title" id="exampleModalLabel">Signin</h5>
+                                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                        <span aria-hidden="true">&times;</span>
+                                                    </button>
+                                                </div>-->
+                        <div class="modal-body">
+                            <table class="table table-hover table-responsive">
+                                <tr>
+                                    <td colspan="2"><center><h3>Signin Form</h3></center>
+                                </td>
+                                </tr>
+                                <tr>
+                                    <td>Username</td>
+                                    <td>
+                                        <input  type="text" class="form-control" id="username_sign_in" name="username_sign_in" required/>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Password</td>
+                                    <td>
+                                        <input  type="text" class="form-control" id="password_sign_in" name="password_sign_in" required/>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            <button type="submit" class="btn btn-default" id="signin">Sign In</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
         <div class="main-page-wrapper about-us-v1-page">
-
-
             <!-- Header _________________________________ -->
             <header class="inner-header">
-
-
                 <div class="top-header">
                     <div class="container">
                         <div class="left-side float-left">
@@ -72,10 +168,10 @@
                         <div class="container">
                             <div class="logo float-left"><a href="index.html" style="vertical-align:middle;"><img src="images/logo/logo.png" alt="LOGO"></a></div>
 
-                            <form action="#" class="float-right">
-                                <input type="text" placeholder="Search">
-                                <button><i class="fa fa-search-minus" aria-hidden="true"></i></button>
-                            </form>
+                            <div class="float-right" style="margin-top: 3%; color: #ffffff; margin-right: 1%; ">
+                                <button class="btn btn-default" style="background-color: #84b645" data-toggle="modal" data-target="#exampleModal">Signup</button>
+                                <button class="btn btn-default" style="background-color: #84b645" data-toggle="modal" data-target="#signinModal">Sigin</button>
+                            </div>
 
                             <!-- Menu -->
                             <nav class="navbar float-right">
@@ -103,13 +199,9 @@
                                                 <li><a href="about-us-v2.html" class="tran3s">About Us V2</a></li>
                                             </ul>
                                         </li>
-                                        <li class="dropdown-holder"><a href="#">Event</a>
-                                            <ul class="sub-menu">
-                                                <li><a href="event.html" class="tran3s">Event Single</a></li>
-                                                <li><a href="event-details.html" class="tran3s">Event Details</a></li>
-                                            </ul>
+                                        <li class="dropdown-holder"><a href="#">scholar hunt</a>
                                         </li>
-                                        <li class="dropdown-holder"><a href="#">courses</a>
+                                        <li class="dropdown-holder"><a href="#">Find a tutor</a>
                                             <ul class="sub-menu">
                                                 <li><a href="course-v1.html" class="tran3s">Course Version One</a></li>
                                                 <li><a href="course-v2.html" class="tran3s">Course Version Two</a></li>
@@ -125,7 +217,7 @@
                                             </ul>
                                         </li>
                                         <li class=""><a href="#">faq</a>
-                                            
+
                                         </li>
                                         <li class="dropdown-holder"><a href="#">blog</a>
                                             <ul class="sub-menu">

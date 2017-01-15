@@ -29,3 +29,9 @@
 .single-post:hover .text{
     background-color: #84b645!important;
 }
+.img-holder .round-border:hover{
+    background-color: #84b645!important;
+}
+.item-wrapper:hover .round-border{
+    background-color: #84b645!important;
+}

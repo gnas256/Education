@@ -35,3 +35,44 @@
 .item-wrapper:hover .round-border{
     background-color: #84b645!important;
 }
+button .fa{
+    color: white!important;
+}
+.fa{
+    color: #84b645!important;
+}
+.fa:hover{
+    color: #fff!important;
+}
+.round-border:hover .fa{
+    color: #fff!important;
+}
+.ficon{
+    /*background-color: #84b645!important;*/
+    color: #84b645!important;
+}
+.carousel-indicators li{
+    background-color: #84b645!important;
+}
+.bottom-footer .tran3s{
+    color: #84b645!important;
+}
+.footer-quick-link .tran3s:hover{
+    color: #84b645!important;
+}
+.single-event:hover h6{
+    color: #84b645!important;
+}
+.footer-about a:hover{
+    color: #84b645!important;
+}
+.footer-contact a:hover{
+    color: #84b645!important;
+}
+.footer-event a:hover{
+    color: #84b645!important;
+}
+
+/*a .tran3s :hover{
+    color: #84b645!important;
+}*/

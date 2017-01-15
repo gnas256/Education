@@ -39,18 +39,24 @@
         <div id="map"></div>
         <script>
             function initMap() {
-                var position1 = {lat: 20.993776, lng: 105.811417};
-                var position2 = {lat: 20.993776, lng: -95.677068};
                 var map = new google.maps.Map(document.getElementById('map'), {
-                    zoom: 11,
-                    center: position1
+                    zoom: 12    ,
+                    center: {lat: 21.028511, lng: 105.804817}
                 });
                 var marker = new google.maps.Marker({
-                    position: position1,
+                    position: {lat: 20.993776, lng: 105.811417},
                     map: map
                 });
                 new google.maps.Marker({
-                    position: position2,
+                    position: {lat: 20.983775, lng: 105.811415},
+                    map: map
+                });
+                new google.maps.Marker({
+                    position: {lat: 20.993775, lng: 105.821415},
+                    map: map
+                });
+                 new google.maps.Marker({
+                    position: {lat: 20.9893775, lng: 105.821415},
                     map: map
                 });
             }

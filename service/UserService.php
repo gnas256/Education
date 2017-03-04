@@ -9,16 +9,16 @@ class UserServce {
     private $dao;
 
     function __construct() {
-        $dao = new UserDao();
+        $this->dao = new UserDao();
     }
 
     public function signup($user) {
-        return $dao->signup($user);
+        return $this->dao->signup($user);
     }
 
     public function signin($user) {
         $session = new UserSessionService();
-        $user = $dao->signin($user);
+        $user = $this->dao->signin($user);
         if (!is_null($user)) {
             $session->startSession($user->getId());
         }

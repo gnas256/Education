@@ -1,5 +1,7 @@
 <?php
 require_once 'SessionService.php';
+require_once '../domain/User.php';
+require_once '../dao/UserDao.php';
 class UserSessionService extends SessionService {
 
     public function startSession($id) {
@@ -8,14 +10,14 @@ class UserSessionService extends SessionService {
         }
     }
 
-//    public function getCurrentUser() {
-//        if ($this->is_logged_in()) {
-//            $dao = new UserDAO();
-//            $user = $dao->getUser($_SESSION['user']);
-//            return $user;
-//        }
-//        return NULL;
-//    }
+    public function getCurrentUser() {
+        if ($this->is_logged_in()) {
+            $dao = new UserDAO();
+            $user = $dao->getUser($_SESSION['user']);
+            return $user;
+        }
+        return NULL;
+    }
 
     public function getCurrentUserId() {
         return $_SESSION['user'];

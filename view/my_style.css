@@ -76,3 +76,19 @@ button .fa{
 /*a .tran3s :hover{
     color: #84b645!important;
 }*/
+
+#map {
+    height: 100vh;
+    width: 100%;
+}
+header.inner-header {
+     background-color: #fff;
+     color: #000;
+}
+header.inner-header .tran3s{
+     color: #adadad !important
+}
+
+/*.top-header .container .left-side .float-left{
+    background-color: #000
+}*/

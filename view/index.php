@@ -25,7 +25,7 @@
         <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
             <div class="modal-dialog" role="document">
                 <div class="modal-content">
-                    <form method="post" action="./controller/UserController.php">
+                    <form method="post" action="../controller/UserController.php">
                         <!--                        <div class="modal-header">
                                                     <h5 class="modal-title" id="exampleModalLabel">Signup</h5>
                                                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
@@ -58,13 +58,13 @@
                                 <tr>
                                     <td class="active">Your password</td>
                                     <td>
-                                        <input type="text" name="password" id="password" class="form-control" required />
+                                        <input type="password" name="password" id="password" class="form-control" required />
                                     </td>
                                 </tr>
                                 <tr>
                                     <td class="active">Confirm password</td>
                                     <td>
-                                        <input type="text" name="confirm" id="confirm" class="form-control" required />
+                                        <input type="password" name="confirm" id="confirm" class="form-control" required />
                                     </td>
                                 </tr>
                                 <tr>
@@ -87,7 +87,7 @@
         <div class="modal fade" id="signinModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
             <div class="modal-dialog" role="document">
                 <div class="modal-content">
-                    <form method="post" action="#">
+                    <form method="post" action="../controller/UserController.php">
                         <!--                        <div class="modal-header">
                                                     <h5 class="modal-title" id="exampleModalLabel">Signin</h5>
                                                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
@@ -109,14 +109,14 @@
                                 <tr>
                                     <td>Password</td>
                                     <td>
-                                        <input  type="text" class="form-control" id="password_sign_in" name="password_sign_in" required/>
+                                        <input  type="password" class="form-control" id="password_sign_in" name="password_sign_in" required/>
                                     </td>
                                 </tr>
                             </table>
                         </div>
                         <div class="modal-footer">
                             <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                            <button type="submit" class="btn btn-default" id="signin">Sign In</button>
+                            <input type="submit" class="btn btn-default" id="signin" name="signin" value=" Sign In"> 
                         </div>
                     </form>
                 </div>
@@ -154,14 +154,34 @@
                     <div class="main-menu-wrapper clear-fix">
                         <div class="container"  >
                             <div class="logo float-left" style="margin-right: 1%">
-                                <a href="index.html" style="vertical-align:middle;"><img src="images/logo/logo.png" alt="LOGO"></a></div>
+                                <a href="index.php" style="vertical-align:middle;"><img src="images/logo/logo.png" alt="LOGO"></a></div>
                             <!--                            <form action="#" class="float-right">
                                                             <input type="text" placeholder="Search">
                                                             <button><i class="fa fa-search-minus" aria-hidden="true"></i></button>
                                                         </form>-->
-                            <div class="float-right" style="margin-top: 3%; color: #ffffff; margin-right: 1%; ">
-                                <button class="btn btn-default" style="background-color: #84b645" data-toggle="modal" data-target="#exampleModal">Signup</button>
-                                <button class="btn btn-default" style="background-color: #84b645" data-toggle="modal" data-target="#signinModal">Sigin</button>
+                            <div class="float-right" style="margin-top: 3%; color: #ffffff; margin-right: 1%;">
+                                <?php
+                                include_once '../service/UserSessionService.php';
+                                $service = new UserSessionService();
+                                if (!$service->is_logged_in()) {
+                                    ?>
+                                    <button class="btn btn-default" style="background-color: #84b645" data-toggle="modal" data-target="#exampleModal">Signup</button>
+                                    <button class="btn btn-default" style="background-color: #84b645" data-toggle="modal" data-target="#signinModal">Sigin</button>
+                                    <?php
+                                } else {
+                                    ?>  
+                                    <button class="btn btn-default" style="background-color: #84b645" data-toggle="modal" data-target="#"><?php
+                                        include_once '../service/UserSessionService.php';
+                                        $service = new UserSessionService();
+                                        echo "Welcome " . $service->getCurrentUser()->getName();
+                                        ?></button>
+                                    <form method="post" action="../controller/UserController.php">
+                                        <button type="submit" class="btn btn-default" style="background-color: #84b645" value="Sign out" name="out">
+                                            Sign out</button>
+                                    </form>
+                                    <?php
+                                }
+                                ?>
                             </div>
 
                             <!-- Menu -->
@@ -178,9 +198,9 @@
                                 <!-- Collect the nav links, forms, and other content for toggling -->
                                 <div class="collapse navbar-collapse" id="navbar-collapse-1">
                                     <ul class="nav navbar-nav">
-                                        <li class="dropdown-holder current-page-item"><a href="index.html">Home</a>
+                                        <li class="dropdown-holder current-page-item"><a href="index.php">Home</a>
                                             <ul class="sub-menu">
-                                                <li><a href="index.html" class="tran3s">For Teacher</a></li>
+                                                <li><a href="index.php" class="tran3s">For Teacher</a></li>
                                                 <li><a href="index-2.html" class="tran3s">For Student</a></li>
                                             </ul>
                                         </li>
@@ -195,8 +215,8 @@
                                         <li class="dropdown-holder"><a href="#">Find a tutor</a>
                                             <ul class="sub-menu">
                                                 <li><a href="course-v1.html" class="tran3s">Course Version One</a></li>
-                                                <li><a href="course-v2.html" class="tran3s">Course Version Two</a></li>
-                                                <li><a href="course-details.html" class="tran3s">Course Details Page</a></li>
+                                                <!--- <li><a href="course-v2.html" class="tran3s">Course Version Two</a></li> -->
+                                                <!--- <li><a href="course-details.html" class="tran3s">Course Details Page</a></li> -->
                                             </ul>
                                         </li>
                                         <li class="dropdown-holder"><a href="#">features</a>
@@ -228,17 +248,46 @@
             <!-- Theme Banner ________________________________ -->
             <div id="banner">
                 <div class="rev_slider_wrapper">
-                    <!-- START REVOLUTION SLIDER 5.0.7 auto mode -->
+<!--                    <div id="main-banner-slider" class="rev_slider" data-version="5.0.7">
+                        <div id="map" class="tp-caption"></div>
+                    </div>
+-->                    <script>
+                        function initMap() {
+                            //                document.getElementById("map")
+                            var map = new google.maps.Map(document.getElementById('map'), {
+                                zoom: 12,
+                                center: {lat: 21.028511, lng: 105.804817}
+                            });
+                            var marker = new google.maps.Marker({
+                                position: {lat: 20.993776, lng: 105.811417},
+                                map: map
+                            });
+                            new google.maps.Marker({
+                                position: {lat: 20.983775, lng: 105.811415},
+                                map: map
+                            });
+                            new google.maps.Marker({
+                                position: {lat: 20.993775, lng: 105.821415},
+                                map: map
+                            });
+                            new google.maps.Marker({
+                                position: {lat: 20.9893775, lng: 105.821415},
+                                map: map
+                            });
+                        }
+                    </script>
+                    <!--START REVOLUTION SLIDER 5.0.7 auto mode -->
                     <div id="main-banner-slider" class="rev_slider" data-version="5.0.7">
                         <ul>
-
-                            <!-- SLIDE1  -->
+<!--                            <li id="map" data-index="rs-280" data-transition="zoomout" data-slotamount="default"  data-easein="Power4.easeInOut" data-easeout="Power4.easeInOut" data-masterspeed="2000"  data-rotate="0"  data-saveperformance="off"  data-title="Title Goes Here" data-description="">
+                            </li>-->
+                            SLIDE1  
                             <li data-index="rs-280" data-transition="zoomout" data-slotamount="default"  data-easein="Power4.easeInOut" data-easeout="Power4.easeInOut" data-masterspeed="2000"  data-rotate="0"  data-saveperformance="off"  data-title="Title Goes Here" data-description="">
-                                <!-- MAIN IMAGE -->
+                                MAIN IMAGE 
                                 <img src="images/home/slide-1.jpg"  alt="image"  class="rev-slidebg" data-bgparallax="3" data-bgposition="center center" data-duration="20000" data-ease="Linear.easeNone" data-kenburns="on" data-no-retina="" data-offsetend="0 0" data-offsetstart="0 0" data-rotateend="0" data-rotatestart="0" data-scaleend="100" data-scalestart="140">
-                                <!-- LAYERS -->
+                                LAYERS 
 
-                                <!-- LAYER NR. 1 -->
+                                LAYER NR. 1 
                                 <div class="tp-caption" 
                                      data-x="['left','left','left','left']" data-hoffset="['0','25','35','15']" 
                                      data-y="['middle','middle','middle','middle']" data-voffset="['-56','-56','-45','-150']" 
@@ -259,7 +308,7 @@
                                     <h5>for hundreds of successful student here </h5>
                                 </div>
 
-                                <!-- LAYER NR. 2 -->
+                                LAYER NR. 2 
                                 <div class="tp-caption" 
                                      data-x="['left','left','left','left']" data-hoffset="['0','25','35','15']" 
                                      data-y="['middle','middle','middle','middle']" data-voffset="['20','25','30','-85']"
@@ -281,7 +330,7 @@
                                 </div>
 
 
-                                <!-- LAYER NR. 3 -->
+                                LAYER NR. 3 
                                 <div class="tp-caption"
                                      data-x="['left','left','left','left']" data-hoffset="['0','25','35','15']" 
                                      data-y="['middle','middle','middle','middle']" data-voffset="['205','205','210','80']"
@@ -296,7 +345,7 @@
                                     <a href="course-v1.html" class="course-button">View courses</a>
                                 </div>
 
-                                <!-- LAYER NR. 4 -->
+                                LAYER NR. 4 
                                 <div class="tp-caption"
                                      data-x="['left','left','left','left']" data-hoffset="['192','217','227','15']" 
                                      data-y="['middle','middle','middle','middle']" data-voffset="['205','205','210','155']"
@@ -314,13 +363,13 @@
                             </li>
 
 
-                            <!-- SLIDE2  -->
+                            SLIDE2  
                             <li data-index="rs-18" data-transition="zoomin" data-slotamount="7"  data-easein="Power4.easeInOut" data-easeout="Power4.easeInOut" data-masterspeed="2000"  data-thumb="images/home/slide-2.jpg"  data-rotate="0"  data-saveperformance="off"  data-title="Title Goes Here" data-description="">
-                                <!-- MAIN IMAGE -->
+                                MAIN IMAGE 
                                 <img src="images/home/slide-2.jpg"  alt=""  data-bgposition="center center" data-kenburns="on" data-duration="30000" data-ease="Linear.easeNone" data-scalestart="100" data-scaleend="120" data-rotatestart="0" data-rotateend="0" data-offsetstart="0 0" data-offsetend="0 0" data-bgparallax="10" class="rev-slidebg" data-no-retina>
-                                <!-- LAYERS -->
+                                LAYERS 
 
-                                <!-- LAYER NR. 1 -->
+                                LAYER NR. 1 
                                 <div class="tp-caption" 
                                      data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" 
                                      data-y="['middle','middle','middle','middle']" data-voffset="['-56','-56','-36','-150']" 
@@ -341,7 +390,7 @@
                                     <h5>for hundreds of successful student here </h5>
                                 </div>
 
-                                <!-- LAYER NR. 2 -->
+                                LAYER NR. 2 
                                 <div class="tp-caption" 
                                      data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" 
                                      data-y="['middle','middle','middle','middle']" data-voffset="['20','20','45','-85']"
@@ -363,7 +412,7 @@
                                 </div>
 
 
-                                <!-- LAYER NR. 3 -->
+                                LAYER NR. 3 
                                 <div class="tp-caption"
                                      data-x="['center','center','center','center']" data-hoffset="['-87','-87','-87','0']" 
                                      data-y="['middle','middle','middle','middle']" data-voffset="['205','205','210','80']"
@@ -378,7 +427,7 @@
                                     <a href="course-v1.html" class="course-button">View courses</a>
                                 </div>
 
-                                <!-- LAYER NR. 4 -->
+                                LAYER NR. 4 
                                 <div class="tp-caption"
                                      data-x="['center','center','center','center']" data-hoffset="['105','105','105','0']" 
                                      data-y="['middle','middle','middle','middle']" data-voffset="['205','205','210','155']"
@@ -395,13 +444,13 @@
                             </li>
 
 
-                            <!-- SLIDE3  -->
+                            SLIDE3  
                             <li data-index="rs-20" data-transition="zoomin" data-slotamount="7"  data-easein="Power4.easeInOut" data-easeout="Power4.easeInOut" data-masterspeed="2000"  data-thumb="images/home/slide-5.jpg"  data-rotate="0"  data-saveperformance="off"  data-title="Title Goes Here" data-description="">
-                                <!-- MAIN IMAGE -->
+                                MAIN IMAGE 
                                 <img src="images/home/slide-5.jpg"  alt=""  data-bgposition="center center" data-kenburns="on" data-duration="10000" data-ease="Linear.easeNone" data-scalestart="100" data-scaleend="120" data-rotatestart="0" data-rotateend="0" data-offsetstart="0 -500" data-offsetend="0 500" data-bgparallax="10" class="rev-slidebg" data-no-retina>
-                                <!-- LAYERS -->
+                                LAYERS 
 
-                                <!-- LAYER NR. 1 -->
+                                LAYER NR. 1 
                                 <div class="tp-caption" 
                                      data-x="['left','left','left','left']" data-hoffset="['0','25','35','15']" 
                                      data-y="['middle','middle','middle','middle']" data-voffset="['-56','-56','-45','-150']" 
@@ -422,7 +471,7 @@
                                     <h5>for hundreds of successful student here </h5>
                                 </div>
 
-                                <!-- LAYER NR. 2 -->
+                                LAYER NR. 2 
                                 <div class="tp-caption" 
                                      data-x="['left','left','left','left']" data-hoffset="['0','25','35','15']" 
                                      data-y="['middle','middle','middle','middle']" data-voffset="['20','25','30','-85']"
@@ -444,7 +493,7 @@
                                 </div>
 
 
-                                <!-- LAYER NR. 3 -->
+                                LAYER NR. 3 
                                 <div class="tp-caption"
                                      data-x="['left','left','left','left']" data-hoffset="['0','25','35','15']" 
                                      data-y="['middle','middle','middle','middle']" data-voffset="['205','205','210','80']"
@@ -459,7 +508,7 @@
                                     <a href="course-v1.html" class="course-button">View courses</a>
                                 </div>
 
-                                <!-- LAYER NR. 4 -->
+                                LAYER NR. 4 
                                 <div class="tp-caption"
                                      data-x="['left','left','left','left']" data-hoffset="['192','217','227','15']" 
                                      data-y="['middle','middle','middle','middle']" data-voffset="['205','205','210','155']"
@@ -1355,6 +1404,10 @@
 
             <!-- Theme js -->
             <script type="text/javascript" src="js/theme.js"></script>
+
+            <script async defer
+                    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAStzrnC6BDM4kWVwnu-BiKiHrNnfPH5rQ&callback=initMap">
+            </script> 
 
         </div> <!-- /.main-page-wrapper -->
     </body>

@@ -200,7 +200,7 @@
                                     <ul class="nav navbar-nav navbar-left">
                                         <li class="dropdown-holder"><a href="index.php">Home</a>
                                         </li>
-                                        <li class="dropdown-holder"><a href="#">Find tutors</a>
+                                        <li class="dropdown-holder"><a href="find-futors.html">Find tutors</a>                                         </li>>
                                         </li>
                                         <li  class="dropdown-holder"><a href="about-us.html">Become tutors</a>
                                         </li>

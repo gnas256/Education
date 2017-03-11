@@ -207,7 +207,7 @@
                                         <li class="dropdown-holder"><a href="about-us.html">About</a>
                                             <ul class="sub-menu">
                                                 <li><a href="about-us.html" class="tran3s">About REDU</a></li>
-                                                <li><a href="about-us-v2.html" class="tran3s">About Founding Team</a></li>
+                                                <li><a href="become-tutors.html" class="tran3s">About Founding Team</a></li>
                                             </ul>
                                         </li>
                                         <li class="dropdown-holder"><a href="#">scholar hunt</a>
@@ -233,8 +233,8 @@
                                         <li class="dropdown-holder"><a href="#">blog</a>
                                             <ul class="sub-menu">
                                                 <li><a href="blog-v1.html" class="tran3s">blog Version One</a></li>
-                                                <li><a href="blog-v2.html" class="tran3s">blog Version Two</a></li>
-                                                <li><a href="blog-details.html" class="tran3s">blog Details Page</a></li>
+                                                <li><a href="seflstudy-guide.html" class="tran3s">blog Version Two</a></li>
+                                                <li><a href="selfstudy-details.html" class="tran3s">blog Details Page</a></li>
                                             </ul>
                                         </li>
                                         <li><a href="contact-us.html">contact</a></li>
@@ -987,11 +987,11 @@
                             <div class="img-holder">
                                 <div class="date wow fadeInUp p-color-bg">12 <span>Sep</span></div>
                                 <img src="images/blog/1.jpg" alt="Image">
-                                <a href="blog-details.html" class="tran4s"></a>
+                                <a href="selfstudy-details.html" class="tran4s"></a>
                             </div>
                             <div class="text-wrapper">
                                 <div class="text tran4s">
-                                    <a href="blog-details.html">New Chicago school budget </a>
+                                    <a href="selfstudy-details.html">New Chicago school budget </a>
                                     <p>Education is the process of facilitating learning. Knowledge kills, values, beliefs, and habits of a group of people are trans- ferred  </p>
                                 </div> <!-- /.text -->
                             </div> <!-- /.text-wrapper -->
@@ -1001,11 +1001,11 @@
                             <div class="img-holder">
                                 <div class="date wow fadeInUp p-color-bg">12 <span>Sep</span></div>
                                 <img src="images/blog/2.jpg" alt="Image">
-                                <a href="blog-details.html" class="tran4s"></a>
+                                <a href="selfstudy-details.html" class="tran4s"></a>
                             </div>
                             <div class="text-wrapper">
                                 <div class="text tran4s">
-                                    <a href="blog-details.html">New Chicago school budget </a>
+                                    <a href="selfstudy-details.html">New Chicago school budget </a>
                                     <p>Education is the process of facilitating learning. Knowledge kills, values, beliefs, and habits of a group of people are trans- ferred  </p>
                                 </div> <!-- /.text -->
                             </div> <!-- /.text-wrapper -->
@@ -1015,11 +1015,11 @@
                             <div class="img-holder">
                                 <div class="date wow fadeInUp p-color-bg">12 <span>Sep</span></div>
                                 <img src="images/blog/3.jpg" alt="Image">
-                                <a href="blog-details.html" class="tran4s"></a>
+                                <a href="selfstudy-details.html" class="tran4s"></a>
                             </div>
                             <div class="text-wrapper">
                                 <div class="text tran4s">
-                                    <a href="blog-details.html">New Chicago school budget </a>
+                                    <a href="selfstudy-details.html">New Chicago school budget </a>
                                     <p>Education is the process of facilitating learning. Knowledge kills, values, beliefs, and habits of a group of people are trans- ferred  </p>
                                 </div> <!-- /.text -->
                             </div> <!-- /.text-wrapper -->

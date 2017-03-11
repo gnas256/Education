@@ -185,7 +185,7 @@
                             </div>
 
                             <!-- Menu -->
-                            <nav class="navbar float-right">
+                            <nav class="navbar float-left">
                                 <!-- Brand and toggle get grouped for better mobile display -->
                                 <div class="navbar-header">
                                     <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1" aria-expanded="false">
@@ -197,47 +197,20 @@
                                 </div>
                                 <!-- Collect the nav links, forms, and other content for toggling -->
                                 <div class="collapse navbar-collapse" id="navbar-collapse-1">
-                                    <ul class="nav navbar-nav">
-                                        <li class="dropdown-holder current-page-item"><a href="index.php">Home</a>
-                                            <ul class="sub-menu">
-                                                <li><a href="index.php" class="tran3s">For Teacher</a></li>
-                                                <li><a href="index-2.html" class="tran3s">For Student</a></li>
-                                            </ul>
+                                    <ul class="nav navbar-nav navbar-left">
+                                        <li class="dropdown-holder"><a href="index.php">Home</a>
                                         </li>
-                                        <li class="dropdown-holder"><a href="about-us.html">About</a>
-                                            <ul class="sub-menu">
-                                                <li><a href="about-us.html" class="tran3s">About REDU</a></li>
-                                                <li><a href="become-tutors.html" class="tran3s">About Founding Team</a></li>
-                                            </ul>
+                                        <li class="dropdown-holder"><a href="#">Find tutors</a>
                                         </li>
-                                        <li class="dropdown-holder"><a href="#">scholar hunt</a>
+                                        <li  class="dropdown-holder"><a href="about-us.html">Become tutors</a>
                                         </li>
-                                        <li class="dropdown-holder"><a href="#">Find a tutor</a>
-                                            <ul class="sub-menu">
-                                                <li><a href="find-futors.html" class="tran3s">Course Version One</a></li>
-                                                <!--- <li><a href="course-v2.html" class="tran3s">Course Version Two</a></li> -->
-                                                <!--- <li><a href="course-details.html" class="tran3s">Course Details Page</a></li> -->
-                                            </ul>
+                                        <li><a href="seflstudy-guide.html">Self-study Guides</a>
                                         </li>
-                                        <li class="dropdown-holder"><a href="#">features</a>
-                                            <ul class="sub-menu">
-                                                <li><a href="our-teacher.html" class="tran3s">Our Teacher</a></li>
-                                                <li><a href="teacher-profile.html" class="tran3s">Teacher Profile</a></li>
-                                                <!--<li><a href="faq.html" class="tran3s">faq</a></li>-->
-                                                <!--<li><a href="404.html" class="tran3s">Error Page</a></li>-->
-                                            </ul>
+                                        <li class="dropdown-holder"><a href="about-us.html">About us</a>
+                                            <!-- <ul class="sub-menu">
+                                                    <li><a href="become-tutors.html" class="tran3s">Become tutors </a></li>
+                                            </ul> -->
                                         </li>
-                                        <li class="dropdown-holder"><a href="#">faq</a>
-
-                                        </li>
-                                        <li class="dropdown-holder"><a href="#">blog</a>
-                                            <ul class="sub-menu">
-                                                <li><a href="blog-v1.html" class="tran3s">blog Version One</a></li>
-                                                <li><a href="seflstudy-guide.html" class="tran3s">blog Version Two</a></li>
-                                                <li><a href="selfstudy-details.html" class="tran3s">blog Details Page</a></li>
-                                            </ul>
-                                        </li>
-                                        <li><a href="contact-us.html">contact</a></li>
                                     </ul>
                                 </div><!-- /.navbar-collapse -->
                             </nav>
@@ -248,10 +221,10 @@
             <!-- Theme Banner ________________________________ -->
             <div id="banner">
                 <div class="rev_slider_wrapper">
-<!--                    <div id="main-banner-slider" class="rev_slider" data-version="5.0.7">
-                        <div id="map" class="tp-caption"></div>
-                    </div>
--->                    <script>
+                    <!--                    <div id="main-banner-slider" class="rev_slider" data-version="5.0.7">
+                                            <div id="map" class="tp-caption"></div>
+                                        </div>
+                    -->                    <script>
                         function initMap() {
                             //                document.getElementById("map")
                             var map = new google.maps.Map(document.getElementById('map'), {
@@ -279,8 +252,8 @@
                     <!--START REVOLUTION SLIDER 5.0.7 auto mode -->
                     <div id="main-banner-slider" class="rev_slider" data-version="5.0.7">
                         <ul>
-<!--                            <li id="map" data-index="rs-280" data-transition="zoomout" data-slotamount="default"  data-easein="Power4.easeInOut" data-easeout="Power4.easeInOut" data-masterspeed="2000"  data-rotate="0"  data-saveperformance="off"  data-title="Title Goes Here" data-description="">
-                            </li>-->
+                            <!--                            <li id="map" data-index="rs-280" data-transition="zoomout" data-slotamount="default"  data-easein="Power4.easeInOut" data-easeout="Power4.easeInOut" data-masterspeed="2000"  data-rotate="0"  data-saveperformance="off"  data-title="Title Goes Here" data-description="">
+                                                        </li>-->
                             SLIDE1  
                             <li data-index="rs-280" data-transition="zoomout" data-slotamount="default"  data-easein="Power4.easeInOut" data-easeout="Power4.easeInOut" data-masterspeed="2000"  data-rotate="0"  data-saveperformance="off"  data-title="Title Goes Here" data-description="">
                                 MAIN IMAGE 

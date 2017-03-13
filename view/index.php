@@ -77,7 +77,7 @@
                         </div>
                         <div class="modal-footer">
                             <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                            <button type="submit" class="btn btn-default" name="signup" id="signup">Signup</button>
+                            <button type="submit" class="btn btn-default" name="signup" id="signup">Sign up</button>
                         </div>
                     </form>
                 </div>
@@ -97,7 +97,7 @@
                         <div class="modal-body">
                             <table class="table table-hover table-responsive">
                                 <tr>
-                                    <td colspan="2"><center><h3>Signin Form</h3></center>
+                                    <td colspan="2"><center><h3>Sign in Form</h3></center>
                                 </td>
                                 </tr>
                                 <tr>
@@ -128,24 +128,21 @@
                     <div class="container" >
                         <div class="left-side float-left">
                             <ul>
-                                <li><span class="icon round-border"><i class="ficon flaticon-signs"></i></span> <a href="" class="tran3s">45/12 Best Avenue Street, UK 2450, US</a></li>
-                                <li><span class="icon round-border"><i class="ficon flaticon-multimedia"></i></span> <a href="" class="tran3s">info@edutech.com</a></li>
-                                <li><span class="icon round-border"><i class="ficon flaticon-technology"></i></span> <a href="" class="tran3s">+8801712570051</a></li>
+                                <li><span class="icon round-border"><i class="ficon flaticon-signs"></i></span> <a href="" class="tran3s">144 Xuan Thuy, Cau Giay, Ha Noi</a></li>
+                                <li><span class="icon round-border"><i class="ficon flaticon-multimedia"></i></span> <a href="" class="tran3s">redu.asia@gmail.com</a></li>
+                                <li><span class="icon round-border"><i class="ficon flaticon-technology"></i></span> <a href="" class="tran3s">+84961961063</a></li>
                                 <li><span class="icon round-border"><i class="ficon flaticon-translation"></i></span>
                                     <select class="selectpicker">
                                         <option>English</option>
-                                        <option>Spanish</option>
-                                        <option>L'italiano</option>
+                                        <option>Vietnamese</option>
                                     </select>
                                 </li>
                             </ul>
                         </div> <!-- /.left-side -->
                         <div class="right-side float-right">
                             <ul>
-                                <li><a href="#" class="tran3s round-border icon"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                                <li><a href="#" class="tran3s round-border icon"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                                <li><a href="#" class="tran3s round-border icon"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
-                                <li><a href="#" class="tran3s round-border icon"><i class="fa fa-pinterest" aria-hidden="true"></i></a></li>
+                                <li><a href="https://www.facebook.com/reduvn/" class="tran3s round-border icon"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                                <li><a href="https://plus.google.com/u/6/109222418141837975446" class="tran3s round-border icon"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
                             </ul>
                         </div> <!-- /.right-side -->
                     </div>
@@ -165,8 +162,8 @@
                                 $service = new UserSessionService();
                                 if (!$service->is_logged_in()) {
                                     ?>
-                                    <button class="btn btn-default" style="background-color: #84b645" data-toggle="modal" data-target="#exampleModal">Signup</button>
-                                    <button class="btn btn-default" style="background-color: #84b645" data-toggle="modal" data-target="#signinModal">Sigin</button>
+                                    <button class="btn btn-default" style="background-color: #84b645" data-toggle="modal" data-target="#exampleModal">Sign up</button>
+                                    <button class="btn btn-default" style="background-color: #84b645" data-toggle="modal" data-target="#signinModal">Sig in</button>
                                     <?php
                                 } else {
                                     ?>  
@@ -200,7 +197,7 @@
                                     <ul class="nav navbar-nav navbar-left">
                                         <li class="dropdown-holder"><a href="index.php">Home</a>
                                         </li>
-                                        <li class="dropdown-holder"><a href="#">Find tutors</a>
+                                        <li class="dropdown-holder"><a href="find-futors.html">Find tutors</a>
                                         </li>
                                         <li  class="dropdown-holder"><a href="about-us.html">Become tutors</a>
                                         </li>
@@ -820,7 +817,7 @@
                         <p>Tech you how to build a complete learning management system upcoming education for student</p>
                         <h6>WE'RE GOOD AT some member</h6>
 
-                        <div class="row">
+  <div class="row">
                             <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
                                 <div class="icon"> <i class="ficon flaticon-crowdfunding"></i> </div>
                                 <p>CERTIFIED TEACHERS</p>
@@ -848,93 +845,7 @@
 
 
 
-            <!-- Event Section _______________________ -->
-            <div class="event-section wow fadeInUp">
-                <div class="container">
-                    <div class="theme-title">
-                        <h2>Events</h2>
-                        <p>Our upcoming event you should mind always</p>
-                    </div>
-
-                    <div class="row">
-                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 wow fadeInUp hvr-float-shadow">
-                            <div class="single-event theme-bg-color">
-                                <div class="date p-color">25 <span>June</span></div>
-                                <a href="event-details.html"><h6>Build Education STRATEGY</h6></a>
-                                <p>Tech you how to build a complete Learning Management Offering a various of solutions meeting your need no matter</p>
-                                <ul>
-                                    <li><i class="fa fa-map-marker" aria-hidden="true"></i> Barisal,CA</li>
-                                    <li><i class="fa fa-clock-o" aria-hidden="true"></i> 10am - 05pm</li>
-                                </ul>
-                            </div> <!-- /.single-event -->
-                        </div>
-
-                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 wow fadeInUp hvr-float-shadow">
-                            <div class="single-event theme-bg-color">
-                                <div class="date p-color">26 <span>June</span></div>
-                                <a href="event-details.html"><h6>Build Education STRATEGY</h6></a>
-                                <p>Tech you how to build a complete Learning Management Offering a various of solutions meeting your need no matter</p>
-                                <ul>
-                                    <li><i class="fa fa-map-marker" aria-hidden="true"></i> Barisal,CA</li>
-                                    <li><i class="fa fa-clock-o" aria-hidden="true"></i> 10am - 05pm</li>
-                                </ul>
-                            </div> <!-- /.single-event -->
-                        </div>
-
-                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 wow fadeInUp hvr-float-shadow">
-                            <div class="single-event theme-bg-color">
-                                <div class="date p-color">27 <span>June</span></div>
-                                <a href="event-details.html"><h6>Build Education STRATEGY</h6></a>
-                                <p>Tech you how to build a complete Learning Management Offering a various of solutions meeting your need no matter</p>
-                                <ul>
-                                    <li><i class="fa fa-map-marker" aria-hidden="true"></i> Barisal,CA</li>
-                                    <li><i class="fa fa-clock-o" aria-hidden="true"></i> 10am - 05pm</li>
-                                </ul>
-                            </div> <!-- /.single-event -->
-                        </div>
-
-                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 wow fadeInUp hvr-float-shadow">
-                            <div class="single-event theme-bg-color">
-                                <div class="date p-color">28 <span>June</span></div>
-                                <a href="event-details.html"><h6>Build Education STRATEGY</h6></a>
-                                <p>Tech you how to build a complete Learning Management Offering a various of solutions meeting your need no matter</p>
-                                <ul>
-                                    <li><i class="fa fa-map-marker" aria-hidden="true"></i> Barisal,CA</li>
-                                    <li><i class="fa fa-clock-o" aria-hidden="true"></i> 10am - 05pm</li>
-                                </ul>
-                            </div> <!-- /.single-event -->
-                        </div>
-
-                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 wow fadeInUp hvr-float-shadow">
-                            <div class="single-event theme-bg-color">
-                                <div class="date p-color">29 <span>June</span></div>
-                                <a href="event-details.html"><h6>Build Education STRATEGY</h6></a>
-                                <p>Tech you how to build a complete Learning Management Offering a various of solutions meeting your need no matter</p>
-                                <ul>
-                                    <li><i class="fa fa-map-marker" aria-hidden="true"></i> Barisal,CA</li>
-                                    <li><i class="fa fa-clock-o" aria-hidden="true"></i> 10am - 05pm</li>
-                                </ul>
-                            </div> <!-- /.single-event -->
-                        </div>
-
-                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 wow fadeInUp hvr-float-shadow">
-                            <div class="single-event theme-bg-color">
-                                <div class="date p-color">30 <span>June</span></div>
-                                <a href="event-details.html"><h6>Build Education STRATEGY</h6></a>
-                                <p>Tech you how to build a complete Learning Management Offering a various of solutions meeting your need no matter</p>
-                                <ul>
-                                    <li><i class="fa fa-map-marker" aria-hidden="true"></i> Barisal,CA</li>
-                                    <li><i class="fa fa-clock-o" aria-hidden="true"></i> 10am - 05pm</li>
-                                </ul>
-                            </div> <!-- /.single-event -->
-                        </div>
-                    </div> <!-- /.row -->
-                </div> <!-- /.container -->
-            </div> <!-- /.event-section -->
-
-
-
-            <!-- Information Banner _______________________ -->
+                    <!-- Information Banner _______________________ -->
             <div class="information-banner wow fadeInUp">
                 <div class="container">
                     <h3>Information for teachers and students, Event information and <span class="p-color">education news</span></h3>
@@ -1170,50 +1081,46 @@
                     <div class="container">
                         <div class="row">
                             <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 footer-about">
-                                <h4>About edutech</h4>
-                                <p>EDUTECH Mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the sys- tem, and expound the actual teachings of the great explorer</p>
-                                <a href="about-us.html" class="tran3s"><i class="fa fa-caret-right" aria-hidden="true"></i> About us</a>
-                                <a href="our-teacher.html" class="tran3s"><i class="fa fa-caret-right" aria-hidden="true"></i> Team Member</a>
+                                <h4>About REDU</h4>
+                                <p>REDU is a company that provides high qualified tutor network in both online and offline form, whom teach students not only academic skills but also SELF-STUDY GUIDES AND STRATEGIES. 
+</p>                                <a href="about-us.html" class="tran3s"><i class="fa fa-caret-right" aria-hidden="true"></i> About us</a>
+                                <a href="our-team.html" class="tran3s"><i class="fa fa-caret-right" aria-hidden="true"></i> Team Member</a>
                                 <ul>
-                                    <li><a href="#" class="tran3s round-border icon"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                                    <li><a href="#" class="tran3s round-border icon"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                                    <li><a href="#" class="tran3s round-border icon"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
-                                    <li><a href="#" class="tran3s round-border icon"><i class="fa fa-pinterest" aria-hidden="true"></i></a></li>
+                                    <li><a href="https://www.facebook.com/reduvn" class="tran3s round-border icon"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                                    <li><a href="https://plus.google.com/u/6/109222418141837975446" class="tran3s round-border icon"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
                                 </ul>
                             </div> <!-- /.footer-about -->
 
                             <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 footer-contact">
-                                <h4>CONTACT US</h4>
                                 <ul>
                                     <li>
                                         <i class="fa fa-envelope-o" aria-hidden="true"></i>
-                                        <a href="mailto:helpneed@edutech.com" class="tran3s">helpneed@edutech.com</a>
+                                        <a href="mailto:helpneed@edutech.com" class="tran3s">redu.asia@gmail.com</a>
                                     </li>
                                     <li>
                                         <i class="fa fa-phone" aria-hidden="true"></i>
-                                        <a href="tel:+8801712570051" class="tran3s">+8801712570051</a>
+                                        <a href="tel:+8801712570051" class="tran3s">+961961063</a>
                                     </li>
-                                    <li><i class="fa fa-map-marker" aria-hidden="true"></i>Edine rode,1234 Plot/RS ,CA</li>
+                                    <li><i class="fa fa-map-marker" aria-hidden="true"></i>144 Xuan Thuy, Cau Giay, HN</li>
                                 </ul>
                             </div> <!-- /.footer-contact -->
 
                             <div class="col-lg-2 col-md-6 col-sm-6 col-xs-12 footer-quick-link">
                                 <h4>Quick link</h4>
                                 <ul>
-                                    <li><a href="course-v2.html" class="tran3s"><i class="fa fa-caret-right" aria-hidden="true"></i> Our Courses</a></li>
-                                    <li><a href="blog-v1.html" class="tran3s"><i class="fa fa-caret-right" aria-hidden="true"></i> News/Blog</a></li>
-                                    <li><a href="event.html" class="tran3s"><i class="fa fa-caret-right" aria-hidden="true"></i> Event</a></li>
-                                    <li><a href="our-teacher.html" class="tran3s"><i class="fa fa-caret-right" aria-hidden="true"></i> Team Member</a></li>
+                                    <li><a href="find-futors.html" class="tran3s"><i class="fa fa-caret-right" aria-hidden="true"></i> Find Tutors</a></li>
+                                    <li><a href="about-us.html" class="tran3s"><i class="fa fa-caret-right" aria-hidden="true"></i> Become tutors</a></li>
+                                    <li><a href="seflstudy-guide.html" class="tran3s"><i class="fa fa-caret-right" aria-hidden="true"></i> Self-study guide</a></li>
+                                    <li><a href="our-team.html" class="tran3s"><i class="fa fa-caret-right" aria-hidden="true"></i> Team Member</a></li>
                                     <li><a href="faq.html" class="tran3s"><i class="fa fa-caret-right" aria-hidden="true"></i> Privacy Policy</a></li>
                                     <li><a href="faq.html" class="tran3s"><i class="fa fa-caret-right" aria-hidden="true"></i> Help</a></li>
                                     <li><a href="contact-us.html" class="tran3s"><i class="fa fa-caret-right" aria-hidden="true"></i> Support</a></li>
-                                    <li><a href="#" class="tran3s"><i class="fa fa-caret-right" aria-hidden="true"></i> Education</a></li>
-                                    <li><a href="our-teacher.html" class="tran3s"><i class="fa fa-caret-right" aria-hidden="true"></i> Teacher</a></li>
+                                    <li><a href="mentor-board.html" class="tran3s"><i class="fa fa-caret-right" aria-hidden="true"></i> Mentors Boards</a></li>
                                 </ul>
                             </div> <!-- /.footer-quick-link -->
 
                             <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 footer-event">
-                                <h4>Latest events</h4>
+                                <h4>Latest News</h4>
 
                                 <div id="footer-event-carousel" class="carousel slide" data-ride="carousel">
                                     <!-- Indicators -->
@@ -1228,29 +1135,29 @@
                                         <div class="item active">
                                             <ul>
                                                 <li>
-                                                    <div class="date p-color-bg">27 <span>Dec</span></div>
-                                                    <a href="event-details.html"><h6>Learning Management</h6></a>
+                                                    <div class="date p-color-bg">27 <span>Jan</span></div>
+                                                    <a href="event-details.html"><h6>Phương pháp quản lý thời gian</h6></a>
                                                     <ul>
                                                         <li><i class="fa fa-clock-o" aria-hidden="true"></i> 10am - 05pm</li>
-                                                        <li><i class="fa fa-tags" aria-hidden="true"></i> Gpur Academy</li>
+                                                        <li><i class="fa fa-tags" aria-hidden="true"></i> UP Bách Khoa</li>
                                                     </ul>
                                                 </li>
 
                                                 <li>
-                                                    <div class="date p-color-bg">19 <span>Dec</span></div>
-                                                    <a href="event-details.html"><h6>LEARN COUSES ONLINE</h6></a>
+                                                    <div class="date p-color-bg">19 <span>June</span></div>
+                                                    <a href="event-details.html"><h6>Phương pháp ghi nhớ</h6></a>
                                                     <ul>
                                                         <li><i class="fa fa-clock-o" aria-hidden="true"></i> 10am - 05pm</li>
-                                                        <li><i class="fa fa-tags" aria-hidden="true"></i> Gpur Academy</li>
+                                                        <li><i class="fa fa-tags" aria-hidden="true"></i> ĐH Quốc Gia Hà Nội</li>
                                                     </ul>
                                                 </li>
 
                                                 <li>
                                                     <div class="date p-color-bg">07 <span>Dec</span></div>
-                                                    <a href="event-details.html"><h6>COURSES FOR FREE GED</h6></a>
+                                                    <a href="event-details.html"><h6>Cho và nhận</h6></a>
                                                     <ul>
                                                         <li><i class="fa fa-clock-o" aria-hidden="true"></i> 10am - 05pm</li>
-                                                        <li><i class="fa fa-tags" aria-hidden="true"></i> Gpur Academy</li>
+                                                        <li><i class="fa fa-tags" aria-hidden="true"></i> BCode - Giải mã tài năng việt</li>
                                                     </ul>
                                                 </li>
                                             </ul>
@@ -1259,29 +1166,29 @@
                                         <div class="item">
                                             <ul>
                                                 <li>
-                                                    <div class="date p-color-bg">27 <span>Dec</span></div>
-                                                    <a href="event-details.html"><h6>Learning Management</h6></a>
+                                                    <div class="date p-color-bg">27 <span>June</span></div>
+                                                    <a href="event-details.html"><h6>8 loại hình thông minh</h6></a>
                                                     <ul>
                                                         <li><i class="fa fa-clock-o" aria-hidden="true"></i> 10am - 05pm</li>
-                                                        <li><i class="fa fa-tags" aria-hidden="true"></i> Gpur Academy</li>
+                                                        <li><i class="fa fa-tags" aria-hidden="true"></i> Minh Sang</li>
                                                     </ul>
                                                 </li>
 
                                                 <li>
-                                                    <div class="date p-color-bg">19 <span>Dec</span></div>
-                                                    <a href="event-details.html"><h6>LEARN COUSES ONLINE</h6></a>
+                                                    <div class="date p-color-bg">19 <span>Feb</span></div>
+                                                    <a href="event-details.html"><h6>Các loại hình tính cách</h6></a>
                                                     <ul>
-                                                        <li><i class="fa fa-clock-o" aria-hidden="true"></i> 10am - 05pm</li>
-                                                        <li><i class="fa fa-tags" aria-hidden="true"></i> Gpur Academy</li>
+                                                        <li><i class="fa fa-clock-o" aria-hidden="true"></i> 6pm - 8pm</li>
+                                                        <li><i class="fa fa-tags" aria-hidden="true"></i> BCode - Giải mã tài năng việt</li>
                                                     </ul>
                                                 </li>
 
                                                 <li>
-                                                    <div class="date p-color-bg">07 <span>Dec</span></div>
-                                                    <a href="event-details.html"><h6>COURSES FOR FREE GED</h6></a>
+                                                    <div class="date p-color-bg">07 <span>Feb</span></div>
+                                                    <a href="event-details.html"><h6>Nhóm Whorl - Nhóm tư duy lãnh đạo</h6></a>
                                                     <ul>
                                                         <li><i class="fa fa-clock-o" aria-hidden="true"></i> 10am - 05pm</li>
-                                                        <li><i class="fa fa-tags" aria-hidden="true"></i> Gpur Academy</li>
+                                                        <li><i class="fa fa-tags" aria-hidden="true"></i> BCode - Giải mã tài năng việt</li>
                                                     </ul>
                                                 </li>
                                             </ul>
@@ -1290,29 +1197,29 @@
                                         <div class="item">
                                             <ul>
                                                 <li>
-                                                    <div class="date p-color-bg">27 <span>Dec</span></div>
-                                                    <a href="event-details.html"><h6>Learning Management</h6></a>
+                                                    <div class="date p-color-bg">27 <span>Nov</span></div>
+                                                    <a href="event-details.html"><h6>Các phương pháp ghi nhớ tốt nhất</h6></a>
                                                     <ul>
-                                                        <li><i class="fa fa-clock-o" aria-hidden="true"></i> 10am - 05pm</li>
-                                                        <li><i class="fa fa-tags" aria-hidden="true"></i> Gpur Academy</li>
+                                                        <li><i class="fa fa-clock-o" aria-hidden="true"></i> 4pm - 6pm</li>
+                                                        <li><i class="fa fa-tags" aria-hidden="true"></i> Minh Sang</li>
                                                     </ul>
                                                 </li>
 
                                                 <li>
                                                     <div class="date p-color-bg">19 <span>Dec</span></div>
-                                                    <a href="event-details.html"><h6>LEARN COUSES ONLINE</h6></a>
+                                                    <a href="event-details.html"><h6>Cách đọc nhanh</h6></a>
                                                     <ul>
                                                         <li><i class="fa fa-clock-o" aria-hidden="true"></i> 10am - 05pm</li>
-                                                        <li><i class="fa fa-tags" aria-hidden="true"></i> Gpur Academy</li>
+                                                        <li><i class="fa fa-tags" aria-hidden="true"></i> ĐH Quốc Gia Hà Nội</li>
                                                     </ul>
                                                 </li>
 
                                                 <li>
                                                     <div class="date p-color-bg">07 <span>Dec</span></div>
-                                                    <a href="event-details.html"><h6>COURSES FOR FREE GED</h6></a>
+                                                    <a href="event-details.html"><h6>Tổng hợp những website để tự học tốt nhất</h6></a>
                                                     <ul>
                                                         <li><i class="fa fa-clock-o" aria-hidden="true"></i> 10am - 05pm</li>
-                                                        <li><i class="fa fa-tags" aria-hidden="true"></i> Gpur Academy</li>
+                                                        <li><i class="fa fa-tags" aria-hidden="true"></i> Minh Sang</li>
                                                     </ul>
                                                 </li>
                                             </ul>
@@ -1325,7 +1232,7 @@
                 </div> <!-- /.top-footer -->
 
                 <div class="bottom-footer">
-                    <p>Copyright 2016 &copy; <a href="http://themeforest.net/user/themazine/portfolio" class="tran3s" target="_blank">TheMazine</a> <span>|</span> Designed by <span class="p-color">Mahfuz Riad</span></p>
+                    <p>Copyright 2017 &copy; <a class="tran3s" target="_blank">REDU</a> <span>|</span> Reachable Eduacation <span class="p-color"></span></p>
                 </div> <!-- /.bottom-footer -->
             </footer>
 

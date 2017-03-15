@@ -593,14 +593,14 @@ but also SELF-STUDY GUIDES AND STRATEGIES.</p>
             <!-- Popular Course _________________________ -->
             <div class="popular-course wow fadeInUp theme-bg-color">
                 <div class="container">
-                    <h2>POPULAR TUTORS/h2>
+                    <h2>POPULAR TUTORS</h2>
 
                     <div class="row">
                         <div class="theme-slider course-item-wrapper">
                             <div class="item hvr-float-shadow">
                                 <div class="img-holder"><img src="images/home/2.jpg" alt="Image"></div>
                                 <div class="text">
-                                    <h4><a href="course-details.html">Tiến sĩ toán học</a></h4>
+                                    <h4><a href="course-details.html">Toán cấp 3, ôn thi đại học</a></h4>
                                     <div class="img round-border"><img src="images/home/1.png" alt="Image"></div>
                                     <h6>Ts. Đặng Đình Hanh</h6>
                                     <ul>
@@ -615,10 +615,10 @@ but also SELF-STUDY GUIDES AND STRATEGIES.</p>
                                         <ul class="float-left">
                                             <li><i class="fa fa-users" aria-hidden="true"></i> 345</li>
                                             <li><i class="fa fa-comment" aria-hidden="true"></i> 5</li>
-                                            <li><i class="fa fa-map-marker" aria-hidden="true"></i> Tea road,CA</li>
+                                            <li><i class="fa fa-map-marker" aria-hidden="true"></i> 75 Hoang Dao Thuy, Cau Giay</li>
                                         </ul>
 
-                                        <a href="course-details.html" class="tran3s p-color-bg themehover">$50.00</a>
+                                        <a href="course-details.html" class="tran3s p-color-bg themehover">300.000</a>
                                     </div>
                                 </div> <!-- /.text -->
                             </div> <!-- /.item -->
@@ -626,9 +626,9 @@ but also SELF-STUDY GUIDES AND STRATEGIES.</p>
                             <div class="item hvr-float-shadow">
                                 <div class="img-holder"><img src="images/home/3.jpg" alt="Image"></div>
                                 <div class="text">
-                                    <h4><a href="course-details.html">Learn Basic German Fast</a></h4>
+                                    <h4><a href="course-details.html">Toán cấp 2, cấp 3</a></h4>
                                     <div class="img round-border"><img src="images/home/1.png" alt="Image"></div>
-                                    <h6>Mahfuz riad</h6>
+                                    <h6>Cô Đỗ Như Quyền</h6>
                                     <ul>
                                         <li><i class="fa fa-star" aria-hidden="true"></i></li>
                                         <li><i class="fa fa-star" aria-hidden="true"></i></li>
@@ -636,15 +636,15 @@ but also SELF-STUDY GUIDES AND STRATEGIES.</p>
                                         <li><i class="fa fa-star" aria-hidden="true"></i></li>
                                         <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
                                     </ul>
-                                    <p>Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat</p>
+                                    <p>GV bộ môn Toán, THPT Hà Nội Amsterdam</p>
                                     <div class="clear-fix">
                                         <ul class="float-left">
                                             <li><i class="fa fa-users" aria-hidden="true"></i> 345</li>
                                             <li><i class="fa fa-comment" aria-hidden="true"></i> 5</li>
-                                            <li><i class="fa fa-map-marker" aria-hidden="true"></i> Tea road,CA</li>
+                                            <li><i class="fa fa-map-marker" aria-hidden="true"></i> 86 Dao Tan, Cau Giay</li>
                                         </ul>
 
-                                        <a href="course-details.html" class="tran3s p-color-bg themehover">$50.00</a>
+                                        <a href="course-details.html" class="tran3s p-color-bg themehover">350.00</a>
                                     </div>
                                 </div> <!-- /.text -->
                             </div> <!-- /.item -->
@@ -652,9 +652,9 @@ but also SELF-STUDY GUIDES AND STRATEGIES.</p>
                             <div class="item hvr-float-shadow">
                                 <div class="img-holder"><img src="images/home/4.jpg" alt="Image"></div>
                                 <div class="text">
-                                    <h4><a href="course-details.html">basic time use properly</a></h4>
+                                    <h4><a href="course-details.html">Toán cấp 3, ôn thi đại học.</a></h4>
                                     <div class="img round-border"><img src="images/home/1.png" alt="Image"></div>
-                                    <h6>Mahfuz riad</h6>
+                                    <h6>Thầy Đặng Đình Bách</h6>
                                     <ul>
                                         <li><i class="fa fa-star" aria-hidden="true"></i></li>
                                         <li><i class="fa fa-star" aria-hidden="true"></i></li>
@@ -662,15 +662,15 @@ but also SELF-STUDY GUIDES AND STRATEGIES.</p>
                                         <li><i class="fa fa-star" aria-hidden="true"></i></li>
                                         <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
                                     </ul>
-                                    <p>Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat</p>
+                                    <p>Kinh nghiệm 4 năm ôn thi Đại học môn Toán</p>
                                     <div class="clear-fix">
                                         <ul class="float-left">
                                             <li><i class="fa fa-users" aria-hidden="true"></i> 345</li>
                                             <li><i class="fa fa-comment" aria-hidden="true"></i> 5</li>
-                                            <li><i class="fa fa-map-marker" aria-hidden="true"></i> Tea road,CA</li>
+                                            <li><i class="fa fa-map-marker" aria-hidden="true"></i> 69 Nguyễn Khang, Cầu Giấy</li>
                                         </ul>
 
-                                        <a href="course-details.html" class="tran3s p-color-bg themehover">$50.00</a>
+                                        <a href="course-details.html" class="tran3s p-color-bg themehover">500.00</a>
                                     </div>
                                 </div> <!-- /.text -->
                             </div> <!-- /.item -->
@@ -678,9 +678,9 @@ but also SELF-STUDY GUIDES AND STRATEGIES.</p>
                             <div class="item hvr-float-shadow">
                                 <div class="img-holder"><img src="images/home/3.jpg" alt="Image"></div>
                                 <div class="text">
-                                    <h4><a href="course-details.html">Learn Basic German Fast</a></h4>
+                                    <h4><a href="course-details.html">Toán cấp 2, cấp 3.</a></h4>
                                     <div class="img round-border"><img src="images/home/1.png" alt="Image"></div>
-                                    <h6>Mahfuz riad</h6>
+                                    <h6>Cô Nguyễn Thúy Hiền</h6>
                                     <ul>
                                         <li><i class="fa fa-star" aria-hidden="true"></i></li>
                                         <li><i class="fa fa-star" aria-hidden="true"></i></li>
@@ -688,15 +688,15 @@ but also SELF-STUDY GUIDES AND STRATEGIES.</p>
                                         <li><i class="fa fa-star" aria-hidden="true"></i></li>
                                         <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
                                     </ul>
-                                    <p>Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat</p>
+                                    <p>Kinh nghiệm 7 năm ôn thi Toán cấp 2 và cấp 3</p>
                                     <div class="clear-fix">
                                         <ul class="float-left">
                                             <li><i class="fa fa-users" aria-hidden="true"></i> 345</li>
                                             <li><i class="fa fa-comment" aria-hidden="true"></i> 5</li>
-                                            <li><i class="fa fa-map-marker" aria-hidden="true"></i> Tea road,CA</li>
+                                            <li><i class="fa fa-map-marker" aria-hidden="true"></i> 177 Chùa Láng, Đống Đa, HN</li>
                                         </ul>
 
-                                        <a href="course-details.html" class="tran3s p-color-bg themehover">$50.00</a>
+                                        <a href="course-details.html" class="tran3s p-color-bg themehover">350.000</a>
                                     </div>
                                 </div> <!-- /.text -->
                             </div> <!-- /.item -->
@@ -704,9 +704,9 @@ but also SELF-STUDY GUIDES AND STRATEGIES.</p>
                             <div class="item hvr-float-shadow">
                                 <div class="img-holder"><img src="images/home/2.jpg" alt="Image"></div>
                                 <div class="text">
-                                    <h4><a href="course-details.html">web development courses</a></h4>
+                                    <h4><a href="course-details.html">Toán cấp 3, ôn thi ĐH</a></h4>
                                     <div class="img round-border"><img src="images/home/1.png" alt="Image"></div>
-                                    <h6>Mahfuz riad</h6>
+                                    <h6>Thầy Đỗ Minh Thông</h6>
                                     <ul>
                                         <li><i class="fa fa-star" aria-hidden="true"></i></li>
                                         <li><i class="fa fa-star" aria-hidden="true"></i></li>
@@ -714,15 +714,15 @@ but also SELF-STUDY GUIDES AND STRATEGIES.</p>
                                         <li><i class="fa fa-star" aria-hidden="true"></i></li>
                                         <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
                                     </ul>
-                                    <p>Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat</p>
+                                    <p>Nhiều năm kinh nghiệm ôn thi ĐH Môn Toán, GV môn Toán THPT Thăng Long</p>
                                     <div class="clear-fix">
                                         <ul class="float-left">
                                             <li><i class="fa fa-users" aria-hidden="true"></i> 345</li>
                                             <li><i class="fa fa-comment" aria-hidden="true"></i> 5</li>
-                                            <li><i class="fa fa-map-marker" aria-hidden="true"></i> Tea road,CA</li>
+                                            <li><i class="fa fa-map-marker" aria-hidden="true"></i> 65 Cầu Giấy, HN</li>
                                         </ul>
 
-                                        <a href="course-details.html" class="tran3s p-color-bg themehover">$50.00</a>
+                                        <a href="course-details.html" class="tran3s p-color-bg themehover">350.000</a>
                                     </div>
                                 </div> <!-- /.text -->
                             </div> <!-- /.item -->
@@ -730,9 +730,9 @@ but also SELF-STUDY GUIDES AND STRATEGIES.</p>
                             <div class="item hvr-float-shadow">
                                 <div class="img-holder"><img src="images/home/4.jpg" alt="Image"></div>
                                 <div class="text">
-                                    <h4><a href="course-details.html">basic time use properly</a></h4>
+                                    <h4><a href="course-details.html">Tiếng Anh cấp 2, cấp 3</a></h4>
                                     <div class="img round-border"><img src="images/home/1.png" alt="Image"></div>
-                                    <h6>Mahfuz riad</h6>
+                                    <h6>Cô Đoàn Đinh Thư</h6>
                                     <ul>
                                         <li><i class="fa fa-star" aria-hidden="true"></i></li>
                                         <li><i class="fa fa-star" aria-hidden="true"></i></li>
@@ -740,70 +740,19 @@ but also SELF-STUDY GUIDES AND STRATEGIES.</p>
                                         <li><i class="fa fa-star" aria-hidden="true"></i></li>
                                         <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
                                     </ul>
-                                    <p>Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat</p>
+                                    <p>Kinh nghiệm nhiều năm dạy Tiếng Anh cấp 2, GV trường THCS Thăng Long</p>
                                     <div class="clear-fix">
                                         <ul class="float-left">
                                             <li><i class="fa fa-users" aria-hidden="true"></i> 345</li>
                                             <li><i class="fa fa-comment" aria-hidden="true"></i> 5</li>
-                                            <li><i class="fa fa-map-marker" aria-hidden="true"></i> Tea road,CA</li>
+                                            <li><i class="fa fa-map-marker" aria-hidden="true"></i> 166 ,CA</li>
                                         </ul>
 
-                                        <a href="course-details.html" class="tran3s p-color-bg themehover">$50.00</a>
+                                        <a href="course-details.html" class="tran3s p-color-bg themehover">150.000</a>
                                     </div>
                                 </div> <!-- /.text -->
                             </div> <!-- /.item -->
 
-                            <div class="item hvr-float-shadow">
-                                <div class="img-holder"><img src="images/home/3.jpg" alt="Image"></div>
-                                <div class="text">
-                                    <h4><a href="course-details.html">Learn Basic German Fast</a></h4>
-                                    <div class="img round-border"><img src="images/home/1.png" alt="Image"></div>
-                                    <h6>Mahfuz riad</h6>
-                                    <ul>
-                                        <li><i class="fa fa-star" aria-hidden="true"></i></li>
-                                        <li><i class="fa fa-star" aria-hidden="true"></i></li>
-                                        <li><i class="fa fa-star" aria-hidden="true"></i></li>
-                                        <li><i class="fa fa-star" aria-hidden="true"></i></li>
-                                        <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
-                                    </ul>
-                                    <p>Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat</p>
-                                    <div class="clear-fix">
-                                        <ul class="float-left">
-                                            <li><i class="fa fa-users" aria-hidden="true"></i> 345</li>
-                                            <li><i class="fa fa-comment" aria-hidden="true"></i> 5</li>
-                                            <li><i class="fa fa-map-marker" aria-hidden="true"></i> Tea road,CA</li>
-                                        </ul>
-
-                                        <a href="course-details.html" class="tran3s p-color-bg themehover">$50.00</a>
-                                    </div>
-                                </div> <!-- /.text -->
-                            </div> <!-- /.item -->
-
-                            <div class="item hvr-float-shadow">
-                                <div class="img-holder"><img src="images/home/2.jpg" alt="Image"></div>
-                                <div class="text">
-                                    <h4><a href="course-details.html">web development courses</a></h4>
-                                    <div class="img round-border"><img src="images/home/1.png" alt="Image"></div>
-                                    <h6>Mahfuz riad</h6>
-                                    <ul>
-                                        <li><i class="fa fa-star" aria-hidden="true"></i></li>
-                                        <li><i class="fa fa-star" aria-hidden="true"></i></li>
-                                        <li><i class="fa fa-star" aria-hidden="true"></i></li>
-                                        <li><i class="fa fa-star" aria-hidden="true"></i></li>
-                                        <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
-                                    </ul>
-                                    <p>Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat</p>
-                                    <div class="clear-fix">
-                                        <ul class="float-left">
-                                            <li><i class="fa fa-users" aria-hidden="true"></i> 345</li>
-                                            <li><i class="fa fa-comment" aria-hidden="true"></i> 5</li>
-                                            <li><i class="fa fa-map-marker" aria-hidden="true"></i> Tea road,CA</li>
-                                        </ul>
-
-                                        <a href="course-details.html" class="tran3s p-color-bg themehover">$50.00</a>
-                                    </div>
-                                </div> <!-- /.text -->
-                            </div> <!-- /.item -->
                         </div> <!-- /.course-slider -->
                     </div>
                 </div> <!-- /.container -->
@@ -821,23 +770,23 @@ but also SELF-STUDY GUIDES AND STRATEGIES.</p>
   <div class="row">
                             <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
                                 <div class="icon"> <i class="ficon flaticon-crowdfunding"></i> </div>
-                                <p>CERTIFIED TEACHERS</p>
+                                <p>Mạng lưới giáo viên</p>
                                 <div class="number"><span class="timer" data-from="0" data-to="117" data-speed="1500" data-refresh-interval="5">0</span></div>
                             </div>
                             <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
                                 <div class="icon"><i class="ficon flaticon-teamwork"></i></div>
-                                <p>COURSES COMPLETE</p>
-                                <div class="number"><span class="timer" data-from="0" data-to="12456" data-speed="1500" data-refresh-interval="5">0</span></div>
+                                <p>Mạng lưới học sinh</p>
+                                <div class="number"><span class="timer" data-from="0" data-to="124" data-speed="1500" data-refresh-interval="5">0</span></div>
                             </div>
                             <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
                                 <div class="icon"><i class="ficon flaticon-medical"></i></div>
-                                <p>Students Enrolled</p>
-                                <div class="number"><span class="timer" data-from="0" data-to="220234" data-speed="1500" data-refresh-interval="5">0</span></div>
+                                <p>Các khóa học</p>
+                                <div class="number"><span class="timer" data-from="0" data-to="34" data-speed="1500" data-refresh-interval="5">0</span></div>
                             </div>
                             <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
                                 <div class="icon"><i class="ficon flaticon-book"></i></div>
-                                <p>Students Enrolled</p>
-                                <div class="number"><span class="timer" data-from="0" data-to="100" data-speed="1500" data-refresh-interval="5">0</span>%</div>
+                                <p>Hiệu suất tăng</p>
+                                <div class="number"><span class="timer" data-from="0" data-to="150" data-speed="1500" data-refresh-interval="5">0</span>%</div>
                             </div>
                         </div> <!-- /.row -->
                     </div> <!-- /.container -->

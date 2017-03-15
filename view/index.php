@@ -600,7 +600,7 @@ but also SELF-STUDY GUIDES AND STRATEGIES.</p>
                             <div class="item hvr-float-shadow">
                                 <div class="img-holder"><img src="images/home/2.jpg" alt="Image"></div>
                                 <div class="text">
-                                    <h4><a href="course-details.html">Trưởng bộ môn toán ĐH Kiến Trúc Hà Nội</a></h4>
+                                    <h4><a href="course-details.html">Tiến sĩ toán học</a></h4>
                                     <div class="img round-border"><img src="images/home/1.png" alt="Image"></div>
                                     <h6>Ts. Đặng Đình Hanh</h6>
                                     <ul>
@@ -610,7 +610,7 @@ but also SELF-STUDY GUIDES AND STRATEGIES.</p>
                                         <li><i class="fa fa-star" aria-hidden="true"></i></li>
                                         <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
                                     </ul>
-                                    <p>Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat</p>
+                                    <p>Trưởng bộ môn toán ĐH Kiến Trúc Hà Nội</p>
                                     <div class="clear-fix">
                                         <ul class="float-left">
                                             <li><i class="fa fa-users" aria-hidden="true"></i> 345</li>

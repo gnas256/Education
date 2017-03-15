@@ -19,7 +19,7 @@
                 <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
                 <script src="vendor/html5shiv.js"></script>
                 <script src="vendor/respond.js"></script>
-        <![endif]--> 
+        <![endif]-->
     </head>
     <body>
         <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -163,7 +163,7 @@
                                 if (!$service->is_logged_in()) {
                                     ?>
                                     <button class="btn btn-default" style="background-color: #84b645" data-toggle="modal" data-target="#exampleModal">Sign up</button>
-                                    <button class="btn btn-default" style="background-color: #84b645" data-toggle="modal" data-target="#signinModal">Sig in</button>
+                                    <button class="btn btn-default" style="background-color: #84b645" data-toggle="modal" data-target="#signinModal">Sign in</button>
                                     <?php
                                 } else {
                                     ?>  
@@ -198,8 +198,6 @@
                                         <li class="dropdown-holder"><a href="index.php">Home</a>
                                         </li>
                                         <li class="dropdown-holder"><a href="find-futors.html">Find tutors</a>
-                                        <li class="dropdown-holder"><a href="find-futors.html">Find tutors</a>                                         </li>
-                                        </li>
                                         <li  class="dropdown-holder"><a href="about-us.html">Become tutors</a>
                                         </li>
                                         <li><a href="seflstudy-guide.html">Self-study Guides</a>
@@ -258,8 +256,8 @@
                                 <img src="images/home/slide-1.jpg"  alt="image"  class="rev-slidebg" data-bgparallax="3" data-bgposition="center center" data-duration="20000" data-ease="Linear.easeNone" data-kenburns="on" data-no-retina="" data-offsetend="0 0" data-offsetstart="0 0" data-rotateend="0" data-rotatestart="0" data-scaleend="100" data-scalestart="140">
                                 LAYERS 
 
-                                LAYER NR. 1 
-                                <!-- <div class="tp-caption" 
+                                <!-- LAYER NR. 1 
+                                <div class="tp-caption" 
                                      data-x="['left','left','left','left']" data-hoffset="['0','25','35','15']" 
                                      data-y="['middle','middle','middle','middle']" data-voffset="['-56','-56','-45','-150']" 
                                      data-width="none"
@@ -277,7 +275,7 @@
                                      data-responsive_offset="on" 
                                      style="z-index: 6; white-space: nowrap;">
                                     <h5>for hundreds of successful student here </h5>
-                                </div> -->
+                                </div>
 
                                 LAYER NR. 2 
                                 <div class="tp-caption" 
@@ -298,7 +296,7 @@
                                      data-responsive_offset="on" 
                                      style="z-index: 6; white-space: nowrap;">
                                     <h1>Education is a <span class="p-color">backbone</span> <br>of life</h1>
-                                </div> 
+                                </div>
 
 
                                 LAYER NR. 3 
@@ -313,7 +311,7 @@
                                      data-splitin="none" 
                                      data-splitout="none" 
                                      data-responsive_offset="on">
-                                    <a href="find-futors.html" class="course-button">View teachers</a>
+                                    <a href="find-futors.html" class="course-button">View courses</a>
                                 </div>
 
                                 LAYER NR. 4 
@@ -329,7 +327,7 @@
                                      data-splitout="none" 
                                      data-responsive_offset="on">
                                     <a href="contact-us.html" class="buy-button p-color-bg">BUY NOW</a>
-                                </div>
+                                </div> -->
 
                             </li>
 
@@ -379,7 +377,8 @@
                                      data-splitout="none" 
                                      data-responsive_offset="on" 
                                      style="z-index: 6; white-space: nowrap;">
-                                    <h1 class="center-item">Meet your new <span class="p-color">community</span> <br>Learn education</h1>
+                                    <h1 class="center-item"> cut down their <span class="p-color"> unproductive time by</span> <br>  
+improving their learning skills.</h1>
                                 </div>
 
 
@@ -395,7 +394,7 @@
                                      data-splitin="none" 
                                      data-splitout="none" 
                                      data-responsive_offset="on">
-                                    <a href="find-futors.html" class="course-button">View courses</a>
+                                    <a href="find-futors.html" class="course-button">Find tutors</a>
                                 </div>
 
                                 LAYER NR. 4 
@@ -410,7 +409,7 @@
                                      data-splitin="none" 
                                      data-splitout="none" 
                                      data-responsive_offset="on">
-                                    <a href="contact-us.html" class="buy-button p-color-bg">BUY NOW</a>
+                                    <a href="become-tutors.html" class="buy-button p-color-bg">become teacher</a>
                                 </div>
                             </li>
 
@@ -504,17 +503,17 @@
             <div class="theme-manage-area" >
                 <div class="container">
                     <div class="item-part float-left item1 p-color-bg" >
-                        <h3><i class="fa fa-graduation-cap" aria-hidden="true"></i> LEARN COUSES first</h3>
-                        <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequun- tur magni dolores eos qui ratione </p>
-                        <a href="course-details.html" class="tran3s">Rede more <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
+                        <h3><i class="fa fa-graduation-cap" aria-hidden="true"></i> Qualified tutors</h3>
+                        <p>Best students from every university, recruited, tested and trained via experienced mentors board. Validated information and contacts. </p>
+                        <a href="about-us.html" class="tran3s">READ MORE <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
                     </div>
                     <div class="item-part float-left item2">
                         <img src="images/home/1.jpg" alt="Image">
                     </div>
                     <div class="item-part float-left item1 p-color-bg" >
-                        <h3><i class="fa fa-book" aria-hidden="true"></i> BOOK LIBRARY</h3>
-                        <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequun- tur magni dolores eos qui ratione </p>
-                        <a href="course-details.html" class="tran3s">Rede more <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
+                        <h3><i class="fa fa-book" aria-hidden="true"></i> STUDY GUIDE LIBRARY</h3>
+                        <p>Collection of the best and latest learning techniques and learning strategies. Develop our own books for every levels and intelligent type.</p>
+                        <a href="seflstudy-guide.html" class="tran3s">READ MORE <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
                     </div>
                 </div> <!-- /.container -->
             </div> <!-- /.theme-manage-area -->
@@ -527,25 +526,25 @@
                         <div class="row">
                             <div class="single-input float-left input-one">
                                 <div>
-                                    <input type="text" placeholder="Enter course name">
+                                    <input type="text" placeholder="Tên môn học">
                                 </div> 
                             </div> <!-- /.single-input -->
 
                             <div class="single-input float-left input-two">
                                 <div>
                                     <select class="selectpicker">
-                                        <option>Select cetegory</option>
-                                        <option>Course 1</option>
-                                        <option>Course 2</option>
-                                        <option>Course 3</option>
-                                        <option>Course 4</option>
+                                        <option>Cầu Giấy</option>
+                                        <option>Đống Đa</option>
+                                        <option>Ba Đình</option>
+                                        <option>Tây Hồ</option>
+                                        <option>Thanh Xuân</option>
                                     </select>
                                 </div>
                             </div> <!-- /.single-input -->
 
                             <div class="single-input float-left input-two time-select">
                                 <div>
-                                    <input type="text" placeholder="Time" class="timepicker">
+                                    <input type="text" placeholder="Thời gian" class="timepicker">
                                     <span><i class="fa fa-caret-down" aria-hidden="true"></i></span>
                                 </div>
                             </div> <!-- /.single-input -->
@@ -566,43 +565,44 @@
             <div class="welcome-section">
                 <div class="container">
                     <div class="section-title wow fadeInUp">
-                        <h2 class="p-color">Welcome to edutech</h2>
-                        <h5>awesome success with student</h5>
-                        <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem </p>
+                        <h2 class="p-color">Welcome to REDU</h2>
+                        <h5>Reachable Education</h5>
+                        <p>REDU is a company that provides high qualified tutor network in both online and offline form, whom teach students not only academic skills
+but also SELF-STUDY GUIDES AND STRATEGIES.</p>
                     </div> <!-- /.section-title -->
 
                     <div class="row">
                         <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 wow fadeInUp">
-                            <h3><i class="fa fa-graduation-cap" aria-hidden="true" ></i> LEARN COUSES first</h3>
-                            <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia con- sequuntur magni dolores eos qui ratione </p>
+                            <h3><i class="fa fa-graduation-cap" aria-hidden="true" ></i> High qualified tutors</h3>
+                            <p>Recruit best students from every university. To be one of REDU’s tutor network, they have to pass our online test which are built to check their academic abilities. They will be trained at least in 3-7 days for teaching.
+ </p>
                         </div>
                         <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 wow fadeInUp">
-                            <h3><i class="fa fa-tags" aria-hidden="true" ></i> 440 Courses available</h3>
-                            <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia con- sequuntur magni dolores eos qui ratione </p>
+                            <h3><i class="fa fa-tags" aria-hidden="true" ></i> Learning techniques library</h3>
+                            <p>Collection of the best and latest learning techniques and learning strategies. Develop our own books for every levels and intelligent type.</p>
                         </div>
                         <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 wow fadeInUp">
-                            <h3><i class="fa fa-diamond" aria-hidden="true" ></i> Everything you need</h3>
-                            <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia con- sequuntur magni dolores eos qui ratione </p>
+                            <h3><i class="fa fa-diamond" aria-hidden="true" ></i> New technology on learning</h3>
+                            <p>Searching tool, advanced filters, easy to use with friendly visualized functions. Tracking system for parents to keep eyes on children’s schedules, timetables and results.</p>
                         </div>
                     </div>
                 </div> <!-- /.container -->
             </div> <!-- /.welcome-section -->
 
 
-
             <!-- Popular Course _________________________ -->
             <div class="popular-course wow fadeInUp theme-bg-color">
                 <div class="container">
-                    <h2>POPULAR COURSES</h2>
+                    <h2>POPULAR TUTORS/h2>
 
                     <div class="row">
                         <div class="theme-slider course-item-wrapper">
                             <div class="item hvr-float-shadow">
                                 <div class="img-holder"><img src="images/home/2.jpg" alt="Image"></div>
                                 <div class="text">
-                                    <h4><a href="course-details.html">web development courses</a></h4>
+                                    <h4><a href="course-details.html">Trưởng bộ môn toán ĐH Kiến Trúc Hà Nội</a></h4>
                                     <div class="img round-border"><img src="images/home/1.png" alt="Image"></div>
-                                    <h6>Mahfuz riad</h6>
+                                    <h6>Ts. Đặng Đình Hanh</h6>
                                     <ul>
                                         <li><i class="fa fa-star" aria-hidden="true"></i></li>
                                         <li><i class="fa fa-star" aria-hidden="true"></i></li>
@@ -814,9 +814,9 @@
             <div class="course-progress">
                 <div class="opacity">
                     <div class="container">
-                        <h2>GET 100 COURSES FOR <span class="p-color">FREE</span></h2>
-                        <p>Tech you how to build a complete learning management system upcoming education for student</p>
-                        <h6>WE'RE GOOD AT some member</h6>
+                        <h2>TRY THE FIRST CLASS<span class="p-color"> FREE </span></h2>
+                        <p>Trải nghiệm buổi học thử đầu tiên miễn phí để quyết định người thầy</p>
+                        <h6>Chỉ có ở REDU| Reachable Education</h6>
 
   <div class="row">
                             <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
@@ -849,8 +849,8 @@
                     <!-- Information Banner _______________________ -->
             <div class="information-banner wow fadeInUp">
                 <div class="container">
-                    <h3>Information for teachers and students, Event information and <span class="p-color">education news</span></h3>
-                    <h6>ONE OF THE MOST COMPLETE Education THEME</h6>
+                    <h3>Course information and <span class="p-color"> free sholarships, curriculum, books, pdf.</span></h3>
+                    <h6>Contact us 24/7</h6>
                     <a href="contact-us.html" class="p-color-bg tran3s wow fadeInUp" >Contact us</a>
                 </div> <!-- /.container -->
             </div> <!-- /.information-banner -->
@@ -863,50 +863,47 @@
             <div class="latest-news wow fadeInUp theme-bg-color">
                 <div class="container">
                     <div class="theme-title">
-                        <h2>latest news</h2>
-                        <p>Something for education news,latest news feed</p>
+                        <h2>Partnerships and Sponsorship</h2>
+                        <p>Our beloved partners and sponsors</p>
                     </div>
 
                     <div class="post-wrapper row">
                         <div class="single-post wow fadeInUp col-lg-4 col-md-4 col-sm-6 col-xs-6">
                             <div class="img-holder">
-                                <div class="date wow fadeInUp p-color-bg">12 <span>Sep</span></div>
+                                <!-- <div class="date wow fadeInUp p-color-bg">12 <span>Sep</span></div> -->
                                 <img src="images/blog/1.jpg" alt="Image">
                                 <a href="selfstudy-details.html" class="tran4s"></a>
                             </div>
                             <div class="text-wrapper">
                                 <div class="text tran4s">
-                                    <a href="selfstudy-details.html">New Chicago school budget </a>
-                                    <p>Education is the process of facilitating learning. Knowledge kills, values, beliefs, and habits of a group of people are trans- ferred  </p>
+                                    <a href="selfstudy-details.html"> Đại học Kinh Tế - ĐHQGHN </a>
+                                    <p>Xuất thân và được sự hỗ trợ của đại học kinh tế - Đại học Quốc Gia Hà Nội</p>
                                 </div> <!-- /.text -->
                             </div> <!-- /.text-wrapper -->
                         </div> <!-- /.single-post -->
 
                         <div class="single-post wow fadeInUp col-lg-4 col-md-4 col-sm-6 col-xs-6">
                             <div class="img-holder">
-                                <div class="date wow fadeInUp p-color-bg">12 <span>Sep</span></div>
                                 <img src="images/blog/2.jpg" alt="Image">
                                 <a href="selfstudy-details.html" class="tran4s"></a>
                             </div>
                             <div class="text-wrapper">
                                 <div class="text tran4s">
-                                    <a href="selfstudy-details.html">New Chicago school budget </a>
-                                    <p>Education is the process of facilitating learning. Knowledge kills, values, beliefs, and habits of a group of people are trans- ferred  </p>
+                                    <a href="selfstudy-details.html">Mr. Dam Quang Thang </a>
+                                    <p>Giám đốc công ty TNHH Agricare Việt Nam - Cố vấn chiến lược và kinh doanh </p>
                                 </div> <!-- /.text -->
                             </div> <!-- /.text-wrapper -->
                         </div> <!-- /.single-post -->
 
                         <div class="single-post wow fadeInUp col-lg-4 col-md-4 col-sm-6 col-xs-6">
                             <div class="img-holder">
-                                <div class="date wow fadeInUp p-color-bg">12 <span>Sep</span></div>
                                 <img src="images/blog/3.jpg" alt="Image">
                                 <a href="selfstudy-details.html" class="tran4s"></a>
                             </div>
                             <div class="text-wrapper">
                                 <div class="text tran4s">
-                                    <a href="selfstudy-details.html">New Chicago school budget </a>
-                                    <p>Education is the process of facilitating learning. Knowledge kills, values, beliefs, and habits of a group of people are trans- ferred  </p>
-                                </div> <!-- /.text -->
+                                    <a href="selfstudy-details.html">Sinh trắc dấu vân tay B-Code </a>
+                                    <p>Phân tích dựa trên những thành tựu khoa học giải mã khả năng tiềm ẩn con người. 
                             </div> <!-- /.text-wrapper -->
                         </div> <!-- /.single-post -->
                     </div> <!-- /.post-wrapper -->
@@ -935,42 +932,42 @@
                                         <div class="item active">
                                             <div class="single-box theme-bg-color">
                                                 <div class="img round-border"><img src="images/home/2.png" alt="Image"></div>
-                                                <h6>ghost riad <span>(Sir.Principal)</span></h6>
-                                                <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolo- rem ipsum</p>
+                                                <h6>Top 3 Khởi nghiệp quốc gia 2016 <span>(Top 3)</span></h6>
+                                                <p>REDU hân hạnh được đánh giá là dự án khả thi và lọt vào top 3 của cuộc thi khởi nghiệp quốc gia do Báo Diễn Đàn Doanh Nghiệp và VCCI năm 2016</p>
                                             </div> <!-- /.single-box -->
 
                                             <div class="single-box theme-bg-color">
                                                 <div class="img round-border"><img src="images/home/3.png" alt="Image"></div>
-                                                <h6>Masum nodi <span>(Sir.Principal Fohinni)</span></h6>
-                                                <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolo- rem ipsum</p>
+                                                <h6>Top 2 Genesis Startup 2016<span>(Top 2)</span></h6>
+                                                <p>Tranh tài gay cấn và được đánh giá cao trong cuộc thi Genesis Startup được ĐH Kinh Tế phối hợp với trường đại học Sydney của Úc phối hợp huấn luyện và tổ chức</p>
                                             </div> <!-- /.single-box -->
                                         </div>
 
                                         <div class="item">
                                             <div class="single-box theme-bg-color">
                                                 <div class="img round-border"><img src="images/home/2.png" alt="Image"></div>
-                                                <h6>ghost riad <span>(Sir.Principal)</span></h6>
-                                                <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolo- rem ipsum</p>
+                                                <h6>VCCI<span></span></h6>
+                                                <p>Tổ chức được thành lập nhằm xúc tiến quan hệ thương mại, kinh tế giữa Việt Nam và các nước. Tập hợp cho các doanh nghiệp thuộc nhiều thành phần kinh tế.</p>
                                             </div> <!-- /.single-box -->
 
                                             <div class="single-box theme-bg-color">
                                                 <div class="img round-border"><img src="images/home/3.png" alt="Image"></div>
-                                                <h6>Masum nodi <span>(Sir.Principal Fohinni)</span></h6>
-                                                <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolo- rem ipsum</p>
+                                                <h6>Diễn đàn doanh nghiệp <span></span></h6>
+                                                <p>BÁO DIỄN ĐÀN DOANH NGHIỆP-PHÒNG THƯƠNG MẠI VÀ CÔNG NGHIỆP VIỆT NAM.</p>
                                             </div> <!-- /.single-box -->
                                         </div>
 
                                         <div class="item">
                                             <div class="single-box theme-bg-color">
                                                 <div class="img round-border"><img src="images/home/2.png" alt="Image"></div>
-                                                <h6>ghost riad <span>(Sir.Principal)</span></h6>
-                                                <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolo- rem ipsum</p>
+                                                <h6>Đại học Kinh Tế - Đại học QGHN <span>(Ban NCKH)</span></h6>
+                                                <p>Phòng Nghiên cứu khoa học và Hợp tác phát triển, Trường Đại học Kinh tế ... Đầu mối xây dựng các chương trình nghiên cứu, kế hoạch NCKH </p>
                                             </div> <!-- /.single-box -->
 
                                             <div class="single-box theme-bg-color">
                                                 <div class="img round-border"><img src="images/home/3.png" alt="Image"></div>
-                                                <h6>Masum nodi <span>(Sir.Principal Fohinni)</span></h6>
-                                                <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolo- rem ipsum</p>
+                                                <h6>Sinh trắc vân tay B-code <span>(Giải mã tài năng việt)</span></h6>
+                                                <p>Sinh trắc học dấu vân tay là công nghệ khoa học giúp ta khám phá ra các năng lực tiềm ẩn của não bộ.</p>
                                             </div> <!-- /.single-box -->
                                         </div>
                                     </div>
@@ -988,25 +985,25 @@
                                             <div class="panel-heading active-panel">
                                                 <h6 class="panel-title">
                                                     <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">
-                                                        Smart Learning is an education platform partners</a>
+                                                        Điểm khác biệt của REDU là gì?</a>
                                                 </h6>
                                             </div>
                                             <div id="collapse1" class="panel-collapse collapse in">
                                                 <div class="panel-body">
-                                                    <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempo- ra incidunt ut labore et dolore magnam aliquam quaerat voluptatem Nemo enim ipsam voluptatem</p>
-                                                </div>
+                                                    <p>REDU là công ty cung cấp mạng lưới gia sư chất lượng cao với mục tiêu cuối là  mang đến cho các em phương pháp học tập riêng phù hợp với bản thân, giúp các em tính tự học, tự nghiên cứu và phát triển bản thân dựa trên nền tảng một ứng dụng/ website mã nguồn mở.
+</p>                                               </div>
                                             </div>
                                         </div> <!-- /panel 1 -->
                                         <div class="panel">
                                             <div class="panel-heading">
                                                 <h6 class="panel-title">
                                                     <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">
-                                                        Education of Tomorrow, Rooted in Tradition</a>
+                                                        Cách đăng tìm gia sư và đăng ký tìm lớp học như thế nào</a>
                                                 </h6>
                                             </div>
                                             <div id="collapse2" class="panel-collapse collapse">
                                                 <div class="panel-body">
-                                                    <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem Nemo enim ipsam voluptatem</p>
+                                                    <p>Có thể dễ dàng tìm được gia sư như ý bằng cách nhập môn học muốn tìm kiếm, trình độ gia sư, tìm kiếm theo khu vực và thời gian trong mục tìm kiếm. Các gia sư đáp ứng các nhu cầu sẽ hiển thị trên bản đồ trực quan.</p>
                                                 </div>
                                             </div>
                                         </div> <!-- /panel 2 -->
@@ -1014,12 +1011,13 @@
                                             <div class="panel-heading">
                                                 <h6 class="panel-title">
                                                     <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">
-                                                        Lorem ipsum dolor sit amet, consectetur adipiscing</a>
+                                                        Trở thành một phần của mạng lưới giáo viên REDU</a>
                                                 </h6>
                                             </div>
                                             <div id="collapse3" class="panel-collapse collapse">
                                                 <div class="panel-body">
-                                                    <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem Nemo enim ipsam voluptatem</p>
+                                                    <p> Gia sư nhấp vào link đăng ký và hoàn thiện profile giới thiệu của bản thân. Các bạn gửi ảnh chụp chứng minh thư và các giấy tờ cá nhân để ban quản trị duyệt. Đồng thời muốn dạy môn nào sẽ làm bài test online về môn đấy, khi các bạn đạt điểm đậu thì sẽ được REDU cung cấp giấy chứng nhận và đào tạo offline cho các bạn 3 buổi để các bạn bắt đầu đi dạy.
+</p>
                                                 </div>
                                             </div>
                                         </div> <!-- /panel 3 -->
@@ -1028,12 +1026,12 @@
                                             <div class="panel-heading">
                                                 <h6 class="panel-title">
                                                     <a data-toggle="collapse" data-parent="#accordion" href="#collapse4">
-                                                        Build Education Website Using HTML</a>
+                                                        Tại sao phải sử dụng phương pháp hướng dẫn học và tự học</a>
                                                 </h6>
                                             </div>
                                             <div id="collapse4" class="panel-collapse collapse">
                                                 <div class="panel-body">
-                                                    <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem Nemo enim ipsam voluptatem</p>
+                                                    <p>Giúp học sinh có thái độ học tập hiệu quả, học có phương pháp, tăng tính hiệu quả và giảm bớt thời gian không cần thiết. Xây dựng nền tảng học tập đúng đắn ngay từ bây giờ để phát triển vững chắc tư duy học tập và phát triển sau này.</p>
                                                 </div>
                                             </div>
                                         </div> <!-- /panel 4 -->
@@ -1042,12 +1040,12 @@
                                             <div class="panel-heading">
                                                 <h6 class="panel-title">
                                                     <a data-toggle="collapse" data-parent="#accordion" href="#collapse5">
-                                                        BEST INDUSTRY LEADERS for awesome courses</a>
+                                                        Dịch vụ theo dõi tiến độ và theo dõi dành cho phụ huynh là gì?</a>
                                                 </h6>
                                             </div>
                                             <div id="collapse5" class="panel-collapse collapse">
                                                 <div class="panel-body">
-                                                    <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem Nemo enim ipsam voluptatem</p>
+                                                    <p>Là công cụ hỗ trợ để giúp những phụ huynh bận rộn có thể nắm bắt được quá trình học tập, tiến triển của con cái qua các công cụ online mà REDU cung cấp, ví dụ như theo dõi tiến độ học sinh, điểm, lời nhận xét, tracking vị trí gia sư và tình trạng dạy học giữa gia sư và phụ huynh. </p>
                                                 </div>
                                             </div>
                                         </div> <!-- /panel 5 -->

@@ -19,7 +19,7 @@
                 <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
                 <script src="vendor/html5shiv.js"></script>
                 <script src="vendor/respond.js"></script>
-        <![endif]-->
+        <![endif]--> 
     </head>
     <body>
         <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -197,11 +197,8 @@
                                     <ul class="nav navbar-nav navbar-left">
                                         <li class="dropdown-holder"><a href="index.php">Home</a>
                                         </li>
-<<<<<<< HEAD
                                         <li class="dropdown-holder"><a href="find-futors.html">Find tutors</a>
-=======
-                                        <li class="dropdown-holder"><a href="find-futors.html">Find tutors</a>                                         </li>>
->>>>>>> origin/master
+                                        <li class="dropdown-holder"><a href="find-futors.html">Find tutors</a>                                         </li>
                                         </li>
                                         <li  class="dropdown-holder"><a href="about-us.html">Become tutors</a>
                                         </li>
@@ -262,7 +259,7 @@
                                 LAYERS 
 
                                 LAYER NR. 1 
-                                <div class="tp-caption" 
+                                <!-- <div class="tp-caption" 
                                      data-x="['left','left','left','left']" data-hoffset="['0','25','35','15']" 
                                      data-y="['middle','middle','middle','middle']" data-voffset="['-56','-56','-45','-150']" 
                                      data-width="none"
@@ -280,7 +277,7 @@
                                      data-responsive_offset="on" 
                                      style="z-index: 6; white-space: nowrap;">
                                     <h5>for hundreds of successful student here </h5>
-                                </div>
+                                </div> -->
 
                                 LAYER NR. 2 
                                 <div class="tp-caption" 
@@ -301,7 +298,7 @@
                                      data-responsive_offset="on" 
                                      style="z-index: 6; white-space: nowrap;">
                                     <h1>Education is a <span class="p-color">backbone</span> <br>of life</h1>
-                                </div>
+                                </div> 
 
 
                                 LAYER NR. 3 
@@ -316,7 +313,7 @@
                                      data-splitin="none" 
                                      data-splitout="none" 
                                      data-responsive_offset="on">
-                                    <a href="find-futors.html" class="course-button">View courses</a>
+                                    <a href="find-futors.html" class="course-button">View teachers</a>
                                 </div>
 
                                 LAYER NR. 4 

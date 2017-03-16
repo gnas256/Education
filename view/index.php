@@ -198,11 +198,11 @@
                                         <li class="dropdown-holder"><a href="index.php">Home</a>
                                         </li>
                                         <li class="dropdown-holder"><a href="find-futors.html">Find tutors</a>
-                                        <li  class="dropdown-holder"><a href="about-us.html">Become tutors</a>
+                                        <li  class="dropdown-holder"><a href="become-tutors.html">Become tutors</a>
                                         </li>
                                         <li><a href="seflstudy-guide.html">Self-study Guides</a>
                                         </li>
-                                        <li class="dropdown-holder"><a href="about-us.html">About us</a>
+                                        <li class="dropdown-holder"><a href="our-team.html">About us</a>
                                             <!-- <ul class="sub-menu">
                                                     <li><a href="become-tutors.html" class="tran3s">Become tutors </a></li>
                                             </ul> -->
@@ -524,36 +524,68 @@ improving their learning skills.</h1>
                 <div class="container">
                     <form action="#">
                         <div class="row">
-                            <div class="single-input float-left input-one">
-                                <div>
-                                    <input type="text" placeholder="Tên môn học">
-                                </div> 
-                            </div> <!-- /.single-input -->
+                                                            <div class="single-input float-left input-one">
+                                    <div>
+                                        <input type="text" placeholder="Tên môn học">
+                                    </div> 
+                                </div> <!-- /.single-input -->
 
-                            <div class="single-input float-left input-two">
-                                <div>
-                                    <select class="selectpicker">
-                                        <option>Cầu Giấy</option>
-                                        <option>Đống Đa</option>
-                                        <option>Ba Đình</option>
-                                        <option>Tây Hồ</option>
-                                        <option>Thanh Xuân</option>
-                                    </select>
-                                </div>
-                            </div> <!-- /.single-input -->
+                                <div class="single-input float-left input-two">
+                                    <div>
+                                        <select class="selectpicker">
+                                            <option>Cầu Giấy</option>
+                                            <option>Thanh Xuân</option>
+                                            <option>Đống Đa</option>
+                                            <option>Tây Hồ</option>
+                                            <option>Ba Đình</option>
+                                        </select>
+                                    </div>
+                                </div> <!-- /.single-input -->
 
-                            <div class="single-input float-left input-two time-select">
-                                <div>
-                                    <input type="text" placeholder="Thời gian" class="timepicker">
-                                    <span><i class="fa fa-caret-down" aria-hidden="true"></i></span>
-                                </div>
-                            </div> <!-- /.single-input -->
+                                <div class="single-input float-left input-two time-select">
+                                    <div>
+                                        <input type="text" placeholder="Time" class="timepicker">
+                                        <span><i class="fa fa-caret-down" aria-hidden="true"></i></span>
+                                    </div>
+                                </div> <!-- /.single-input -->
 
-                            <div class="single-input float-left input-three" >
-                                <div>
-                                    <button class="tran3s p-color-bg themehover">search</button>
-                                </div>
-                            </div> <!-- /.single-input -->
+                                <div class="single-input float-left input-one">
+                                    <div>
+                                        <input type="text" placeholder="Tên phần học chi tiết">
+                                    </div> 
+                                </div> <!-- /.single-input -->
+
+                                <div class="single-input float-left input-two">
+                                    <div>
+                                        <select class="selectpicker">
+                                            <option>Nam</option>
+                                            <option>Nữ</option>
+                                        </select>
+                                    </div>
+                                </div> <!-- /.single-input -->
+
+                                <div class="single-input float-left input-two">
+                                    <div>
+                                        <select class="selectpicker">
+                                            <option>Cấp độ</option>
+                                            <option>Cấp I</option>
+                                            <option>Ôn thi HSG cấp I</option>
+                                            <option>Cấp II</option>
+                                            <option>Ôn thi HSG cấp II</option>
+                                            <option>Ôn thi chuyển cấp</option>
+                                            <option>Cấp III</option>
+                                            <option>Ôn thi HSG Cấp II</option>
+                                            <option>Ôn thi đại học</option>
+
+                                        </select>
+                                    </div>
+                                </div> <!-- /.single-input -->
+
+                                <div class="single-input float-left input-three">
+                                    <div>
+                                        <button class="tran3s p-color-bg themehover">search</button>
+                                    </div>
+                                </div> <!-- /.single-input -->
                         </div>
                     </form>
                 </div>
@@ -1057,7 +1089,7 @@ but also SELF-STUDY GUIDES AND STRATEGIES.</p>
                                 <h4>Quick link</h4>
                                 <ul>
                                     <li><a href="find-futors.html" class="tran3s"><i class="fa fa-caret-right" aria-hidden="true"></i> Find Tutors</a></li>
-                                    <li><a href="about-us.html" class="tran3s"><i class="fa fa-caret-right" aria-hidden="true"></i> Become tutors</a></li>
+                                    <li><a href="become-tutors.html" class="tran3s"><i class="fa fa-caret-right" aria-hidden="true"></i> Become tutors</a></li>
                                     <li><a href="seflstudy-guide.html" class="tran3s"><i class="fa fa-caret-right" aria-hidden="true"></i> Self-study guide</a></li>
                                     <li><a href="our-team.html" class="tran3s"><i class="fa fa-caret-right" aria-hidden="true"></i> Team Member</a></li>
                                     <li><a href="faq.html" class="tran3s"><i class="fa fa-caret-right" aria-hidden="true"></i> Privacy Policy</a></li>

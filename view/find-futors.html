@@ -165,7 +165,7 @@
                         <div class="container">
                             <div class="logo float-left"><a href="index.php" style="vertical-align:middle;"><img src="images/logo/logo.png" alt="LOGO"></a></div>
 
-                             <div class="float-right" style="margin-top: 3%; color: #ffffff; margin-right: 1%; ">
+                            <div class="float-right" style="margin-top: 3%; color: #ffffff; margin-right: 1%; ">
                                 <button class="btn btn-default" style="background-color: #84b645" data-toggle="modal" data-target="#exampleModal">Sign up</button>
                                 <button class="btn btn-default" style="background-color: #84b645" data-toggle="modal" data-target="#signinModal">Sign in</button>
                             </div>
@@ -210,7 +210,7 @@
             <div class="inner-page-banner">
                 <div class="opacity">
                     <div class="container" id="map">
-                        
+
                         <!--<h2>COURSES LIST</h2>-->
                     </div> <!-- /.container -->
                 </div> <!-- /.opacity -->
@@ -222,22 +222,29 @@
                         zoom: 12,
                         center: {lat: 21.028511, lng: 105.804817}
                     });
-                    var marker = new google.maps.Marker({
-                        position: {lat: 20.993776, lng: 105.811417},
-                        map: map
-                    });
-                    new google.maps.Marker({
-                        position: {lat: 20.983775, lng: 105.811415},
-                        map: map
-                    });
-                    new google.maps.Marker({
-                        position: {lat: 20.993775, lng: 105.821415},
-                        map: map
-                    });
-                    new google.maps.Marker({
-                        position: {lat: 20.9893775, lng: 105.821415},
-                        map: map
-                    });
+                    for (i = 0; i < 50; i++) {
+                        var mlat = (Math.random() * (21.05000-20.993776)) + 21.00000;
+                        var mlong = (Math.random() * (106.00000-105.811417)) + 105.811417;
+                        var marker = new google.maps.Marker({position: {lat: mlat, lng: mlong},
+                            map: map
+                        });
+                    }
+//                    var marker = new google.maps.Marker({
+//                        position: {lat: 20.993776, lng: 105.811417},
+//                        map: map
+//                    });
+//                    new google.maps.Marker({
+//                        position: {lat: 20.983775, lng: 105.811415},
+//                        map: map
+//                    });
+//                    new google.maps.Marker({
+//                        position: {lat: 20.993775, lng: 105.821415},
+//                        map: map
+//                    });
+//                    new google.maps.Marker({
+//                        position: {lat: 20.9893775, lng: 105.821415},
+//                        map: map
+//                    });
                 }
             </script>
 
@@ -691,7 +698,7 @@
                             <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 footer-about">
                                 <h4>About REDU</h4>
                                 <p>REDU is a company that provides high qualified tutor network in both online and offline form, whom teach students not only academic skills but also SELF-STUDY GUIDES AND STRATEGIES. 
-</p>                                <a href="about-us.html" class="tran3s"><i class="fa fa-caret-right" aria-hidden="true"></i> About us</a>
+                                </p>                                <a href="about-us.html" class="tran3s"><i class="fa fa-caret-right" aria-hidden="true"></i> About us</a>
                                 <a href="our-team.html" class="tran3s"><i class="fa fa-caret-right" aria-hidden="true"></i> Team Member</a>
                                 <ul>
                                     <li><a href="https://www.facebook.com/reduvn" class="tran3s round-border icon"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
